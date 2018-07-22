@@ -31,7 +31,7 @@ fieldset, img {
 
 .full-width-image {
   height: 800px; // your specified height
-  background: url("shop-0.JPG") no-repeat center center fixed;
+  background: url("../images/shop-0.JPG") no-repeat center center fixed;
   background-size: cover;
   -webkit-animation: fadein 5s 1; /* Safari 4+ */
   -moz-animation:    fadein 5s 1; /* Fx 5+ */
@@ -42,6 +42,6 @@ fieldset, img {
 
 .full-width-image-2 {
   height: 500px; // your specified height
-  background: url("shop-1.JPG") no-repeat center center fixed;
+  background: url("../images/shop-1.JPG") no-repeat center center fixed;
   background-size: cover;
 }

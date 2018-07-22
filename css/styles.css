@@ -4,37 +4,128 @@
   height: 25px; }
 
 body {
-  font-family: 'Montserrat', sans-serif; }
+  font-family: 'Montserrat', sans-serif;
+  background-color: black; }
 
 fieldset, img {
   border: 0; }
 
-.bg-black {
-  background-color: black; }
+/* change the background color */
+.navbar-custom {
+  background-color: rgba(255, 255, 255, 0);
+  position: relative; }
 
-.font-white {
-  color: white; }
+/* change the brand and text color */
+.navbar-custom .navbar-brand,
+.navbar-custom .navbar-text {
+  color: rgba(255, 255, 255, 0.8); }
 
-.full-width-image {
+/* change the link color */
+.navbar-custom .navbar-nav .nav-link {
+  color: rgba(255, 255, 255, 0.8); }
+
+/* change the color of active or hovered links */
+.navbar-custom .nav-item.active .nav-link,
+.navbar-custom .nav-item:hover .nav-link {
+  color: #ffffff; }
+
+.custom-toggler.navbar-toggler {
+  border-color: rgba(255, 255, 255, 0); }
+
+.custom-toggler .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,255,255, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E"); }
+
+#content0 {
+  position: relative;
+  overflow-x: hidden;
   height: 800px;
   background: url("../images/shop-0.JPG") no-repeat center center fixed;
   background-size: cover;
-  -webkit-animation: fadein 5s 1, darken 5s 1;
+  -webkit-animation: fadein 5s 1;
   /* Safari 4+ */
-  -moz-animation: fadein 5s 1,  darken 5s 1;
+  -moz-animation: fadein 5s 1;
   /* Fx 5+ */
-  -o-animation: fadein 5s 1,  darken 5s 1;
+  -o-animation: fadein 5s 1;
   /* Opera 12+ */
-  animation: fadein 5s 1,  darken 5s 1;
-  /* IE 10+, Fx 29+ */
-  /*-webkit-animation: darken 5s 1; /* Safari 4+ */
-  /*-moz-animation:    darken 5s 1; /* Fx 5+ */
-  /*-o-animation:      darken 5s 1; /* Opera 12+ */
-  /*animation:         darken 5s 1; /* IE 10+, Fx 29+ */
-  -webkit-filter: brightness(50%);
-  filter: brightness(50%); }
+  animation: fadein 5s 1;
+  /* IE 10+, Fx 29+ */ }
+  #content0 .title {
+    width: 40%;
+    position: absolute;
+    right: -700px;
+    bottom: 150px;
+    -webkit-animation: slide-left 0.5s forwards;
+    -webkit-animation-delay: 3s;
+    -webkit-animation: slide-left 2s forwards;
+    animation: slide-left 2s forwards;
+    animation-delay: 3s; }
+  #content0 .subtitle {
+    width: 385px;
+    position: absolute;
+    bottom: 75px;
+    right: -700px;
+    color: white;
+    -webkit-animation: slide-left-2 0.5s forwards;
+    -webkit-animation-delay: 3.3s;
+    -webkit-animation: slide-left 2s forwards;
+    animation: slide-left 2s forwards;
+    -webkit-animation-delay: 3s;
+    animation-delay: 3s; }
 
-.full-width-image-2 {
-  height: 500px;
-  background: url("../images/shop-1.JPG") no-repeat center center fixed;
+#content1 {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
+  -webkit-box-align: end;
+  -ms-flex-align: end;
+  align-items: flex-end;
+  overflow-x: hidden;
+  height: 850px;
+  background: url("../images/shop-nosotros.JPG") no-repeat center center fixed;
   background-size: cover; }
+  #content1 .title {
+    position: absolute;
+    top: 120px;
+    left: 180px;
+    color: white;
+    font-size: 100px;
+    font-weight: bold; }
+  #content1 .subtitle {
+    position: absolute;
+    width: 1000px;
+    color: white;
+    padding-bottom: 50px;
+    padding-right: 50px; }
+
+#content21 {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
+  -webkit-box-align: end;
+  -ms-flex-align: end;
+  align-items: flex-end;
+  overflow-x: hidden;
+  height: 850px;
+  background: url("../images/shop-2.JPG") no-repeat center center fixed;
+  background-size: cover; }
+  #content21 .title {
+    position: absolute;
+    top: 120px;
+    left: 180px;
+    color: white;
+    font-size: 100px;
+    font-weight: bold; }
+  #content21 .subtitle {
+    position: absolute;
+    width: 1000px;
+    color: white;
+    padding-bottom: 50px;
+    padding-right: 50px; }

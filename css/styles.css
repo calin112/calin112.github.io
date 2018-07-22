@@ -10,31 +10,6 @@ body {
 fieldset, img {
   border: 0; }
 
-/* change the background color */
-.navbar-custom {
-  background-color: rgba(255, 255, 255, 0);
-  position: relative; }
-
-/* change the brand and text color */
-.navbar-custom .navbar-brand,
-.navbar-custom .navbar-text {
-  color: rgba(255, 255, 255, 0.8); }
-
-/* change the link color */
-.navbar-custom .navbar-nav .nav-link {
-  color: rgba(255, 255, 255, 0.8); }
-
-/* change the color of active or hovered links */
-.navbar-custom .nav-item.active .nav-link,
-.navbar-custom .nav-item:hover .nav-link {
-  color: #ffffff; }
-
-.custom-toggler.navbar-toggler {
-  border-color: rgba(255, 255, 255, 0); }
-
-.custom-toggler .navbar-toggler-icon {
-  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,255,255, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E"); }
-
 #content0 {
   position: relative;
   overflow-x: hidden;
@@ -219,16 +194,16 @@ fieldset, img {
 
 #content4 {
   position: relative;
+  overflow: hidden;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: end;
-  -ms-flex-pack: end;
-  justify-content: flex-end;
   -webkit-box-align: end;
   -ms-flex-align: end;
   align-items: flex-end;
-  overflow-x: hidden;
+  -webkit-box-pack: end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
   height: 850px;
   background: url("../images/cambrils.JPG") no-repeat center center fixed;
   background-size: cover; }
@@ -241,7 +216,13 @@ fieldset, img {
     font-weight: bold; }
   #content4 .subtitle {
     position: absolute;
-    width: 1000px;
+    width: 700px;
     color: white;
-    padding-bottom: 75px;
+    padding-bottom: 150px;
     padding-right: 50px; }
+  #content4 #map {
+    position: absolute;
+    width: 700px;
+    height: 400px;
+    top: 300px;
+    left: 100px; }

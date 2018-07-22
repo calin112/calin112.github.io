@@ -30,3 +30,15 @@ $(document).ready(function(){
     }  // End if
   });
 });
+
+//Google Map
+// Initialize and add the map
+function initMap() {
+  // The location of Lumarc 41.067318, 1.057415
+  var lumarc = {lat: 41.067318, lng: 1.057415};
+  // The map, centered at lumarc
+  var map = new google.maps.Map(
+      document.getElementById('map'), {zoom: 19, center: lumarc});
+  // The marker, positioned at lumarc
+  var marker = new google.maps.Marker({position: lumarc, map: map});
+}

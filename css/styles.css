@@ -98,7 +98,7 @@ fieldset, img {
     position: absolute;
     width: 1000px;
     color: white;
-    padding-bottom: 50px;
+    padding-bottom: 75px;
     padding-right: 50px; }
 
 #content21 {
@@ -127,5 +127,121 @@ fieldset, img {
     position: absolute;
     width: 1000px;
     color: white;
-    padding-bottom: 50px;
+    padding-bottom: 75px;
+    padding-right: 50px; }
+
+#content22 {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
+  -webkit-box-align: end;
+  -ms-flex-align: end;
+  align-items: flex-end;
+  overflow-x: hidden;
+  height: 850px;
+  background: url("../images/shop-3.jpg") no-repeat center center fixed;
+  background-size: cover; }
+  #content22 .title {
+    position: absolute;
+    top: 120px;
+    left: 180px;
+    color: white;
+    font-size: 100px;
+    font-weight: bold; }
+  #content22 .subtitle {
+    position: absolute;
+    width: 1000px;
+    color: white;
+    padding-bottom: 75px;
+    padding-right: 50px; }
+
+#content23 {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
+  -webkit-box-align: end;
+  -ms-flex-align: end;
+  align-items: flex-end;
+  overflow-x: hidden;
+  height: 850px;
+  background: url("../images/shop-4.jpg") no-repeat center center fixed;
+  background-size: cover; }
+  #content23 .title {
+    position: absolute;
+    top: 120px;
+    left: 180px;
+    color: white;
+    font-size: 100px;
+    font-weight: bold; }
+  #content23 .subtitle {
+    position: absolute;
+    width: 1000px;
+    color: white;
+    padding-bottom: 75px;
+    padding-right: 50px; }
+
+#content3 {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
+  -webkit-box-align: end;
+  -ms-flex-align: end;
+  align-items: flex-end;
+  overflow-x: hidden;
+  height: 850px;
+  background: url("../images/shop-5.jpg") no-repeat center center fixed;
+  background-size: cover; }
+  #content3 .title {
+    position: absolute;
+    top: 120px;
+    left: 180px;
+    color: white;
+    font-size: 100px;
+    font-weight: bold; }
+  #content3 .subtitle {
+    position: absolute;
+    width: 1000px;
+    color: white;
+    padding-bottom: 75px;
+    padding-right: 50px; }
+
+#content4 {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
+  -webkit-box-align: end;
+  -ms-flex-align: end;
+  align-items: flex-end;
+  overflow-x: hidden;
+  height: 850px;
+  background: url("../images/cambrils.jpg") no-repeat center center fixed;
+  background-size: cover; }
+  #content4 .title {
+    position: absolute;
+    top: 120px;
+    left: 180px;
+    color: white;
+    font-size: 100px;
+    font-weight: bold; }
+  #content4 .subtitle {
+    position: absolute;
+    width: 1000px;
+    color: white;
+    padding-bottom: 75px;
     padding-right: 50px; }

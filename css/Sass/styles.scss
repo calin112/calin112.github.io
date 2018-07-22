@@ -100,7 +100,7 @@ fieldset, img {
     position: absolute;
     width: 1000px;
     color: white;
-    padding-bottom: 50px;
+    padding-bottom: 75px;
     padding-right: 50px;
   }
 }
@@ -126,7 +126,111 @@ fieldset, img {
     position: absolute;
     width: 1000px;
     color: white;
-    padding-bottom: 50px;
+    padding-bottom: 75px;
+    padding-right: 50px;
+  }
+}
+
+#content22 {
+  position: relative;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  overflow-x: hidden;
+  height: 850px;
+  background: url("../images/shop-3.jpg") no-repeat center center fixed;
+  background-size: cover;
+  .title {
+    position: absolute;
+    top: 120px;
+    left: 180px;
+    color: white;
+    font-size: 100px;
+    font-weight: bold;
+  }
+  .subtitle {
+    position: absolute;
+    width: 1000px;
+    color: white;
+    padding-bottom: 75px;
+    padding-right: 50px;
+  }
+}
+
+#content23 {
+  position: relative;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  overflow-x: hidden;
+  height: 850px;
+  background: url("../images/shop-4.jpg") no-repeat center center fixed;
+  background-size: cover;
+  .title {
+    position: absolute;
+    top: 120px;
+    left: 180px;
+    color: white;
+    font-size: 100px;
+    font-weight: bold;
+  }
+  .subtitle {
+    position: absolute;
+    width: 1000px;
+    color: white;
+    padding-bottom: 75px;
+    padding-right: 50px;
+  }
+}
+
+#content3 {
+  position: relative;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  overflow-x: hidden;
+  height: 850px;
+  background: url("../images/shop-5.jpg") no-repeat center center fixed;
+  background-size: cover;
+  .title {
+    position: absolute;
+    top: 120px;
+    left: 180px;
+    color: white;
+    font-size: 100px;
+    font-weight: bold;
+  }
+  .subtitle {
+    position: absolute;
+    width: 1000px;
+    color: white;
+    padding-bottom: 75px;
+    padding-right: 50px;
+  }
+}
+
+#content4 {
+  position: relative;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  overflow-x: hidden;
+  height: 850px;
+  background: url("../images/cambrils.jpg") no-repeat center center fixed;
+  background-size: cover;
+  .title {
+    position: absolute;
+    top: 120px;
+    left: 180px;
+    color: white;
+    font-size: 100px;
+    font-weight: bold;
+  }
+  .subtitle {
+    position: absolute;
+    width: 1000px;
+    color: white;
+    padding-bottom: 75px;
     padding-right: 50px;
   }
 }

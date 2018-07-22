@@ -17,7 +17,7 @@
   .subtitle {
     position: absolute;
     font-size: 4vh;
-    width: 100vh;
+    width: 95vw;
     color: white;
     bottom: 10vh;
     right: 1vw;
@@ -115,16 +115,17 @@ fieldset, img {
   .subtitle {
     position: absolute;
     font-size: 3vh;
-    width: 100vh;
+    width: 95vw;
     color: white;
-    bottom: 8vh;
-    right: 1vw;
+    bottom: 0.5vh;
+    left: 1vh;
+    right: 1vh;
   }
   #map {
     position: absolute;
-    width: 70vh;
-    height: 50vh;
+    width: 80vw;
+    height: 49vh;
     top: 24vh;
-    left: 8vh;
+    left: 10px;
   }
 }

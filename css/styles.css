@@ -12,8 +12,8 @@ fieldset, img {
 
 #content0 {
   position: relative;
-  overflow-x: hidden;
-  height: 800px;
+  overflow: hidden;
+  height: 52vw;
   background: url("../images/shop-0.JPG") no-repeat center center fixed;
   background-size: cover;
   -webkit-animation: fadein 5s 1;
@@ -25,20 +25,21 @@ fieldset, img {
   animation: fadein 5s 1;
   /* IE 10+, Fx 29+ */ }
   #content0 .title {
-    width: 40%;
+    width: 40vw;
     position: absolute;
-    right: -700px;
-    bottom: 150px;
+    right: -40vw;
+    bottom: 10vw;
     -webkit-animation: slide-left 0.5s forwards;
     -webkit-animation-delay: 3s;
     -webkit-animation: slide-left 2s forwards;
     animation: slide-left 2s forwards;
     animation-delay: 3s; }
   #content0 .subtitle {
-    width: 385px;
+    width: 25vw;
+    font-size: 2vw;
     position: absolute;
-    bottom: 75px;
-    right: -700px;
+    bottom: 5vw;
+    right: -40vw;
     color: white;
     -webkit-animation: slide-left-2 0.5s forwards;
     -webkit-animation-delay: 3.3s;
@@ -48,149 +49,109 @@ fieldset, img {
     animation-delay: 3s; }
 
 #content1 {
-  position: relative;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: end;
-  -ms-flex-pack: end;
-  justify-content: flex-end;
-  -webkit-box-align: end;
-  -ms-flex-align: end;
-  align-items: flex-end;
-  overflow-x: hidden;
-  height: 850px;
   background: url("../images/shop-nosotros.JPG") no-repeat center center fixed;
+  position: relative;
+  overflow: hidden;
+  height: 60vw;
   background-size: cover; }
   #content1 .title {
     position: absolute;
-    top: 120px;
-    left: 180px;
+    top: 5vw;
+    left: 10vw;
     color: white;
-    font-size: 100px;
+    font-size: 8vw;
     font-weight: bold; }
   #content1 .subtitle {
     position: absolute;
-    width: 1000px;
+    font-size: 1.7vw;
+    width: 80vw;
     color: white;
-    padding-bottom: 75px;
-    padding-right: 50px; }
+    bottom: 10vw;
+    right: 5vw; }
 
 #content21 {
-  position: relative;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: end;
-  -ms-flex-pack: end;
-  justify-content: flex-end;
-  -webkit-box-align: end;
-  -ms-flex-align: end;
-  align-items: flex-end;
-  overflow-x: hidden;
-  height: 850px;
   background: url("../images/shop-2.jpg") no-repeat center center fixed;
+  position: relative;
+  overflow: hidden;
+  height: 60vw;
   background-size: cover; }
   #content21 .title {
     position: absolute;
-    top: 120px;
-    left: 180px;
+    top: 5vw;
+    left: 10vw;
     color: white;
-    font-size: 100px;
+    font-size: 8vw;
     font-weight: bold; }
   #content21 .subtitle {
     position: absolute;
-    width: 1000px;
+    font-size: 1.7vw;
+    width: 80vw;
     color: white;
-    padding-bottom: 75px;
-    padding-right: 50px; }
+    bottom: 10vw;
+    right: 5vw; }
 
 #content22 {
-  position: relative;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: end;
-  -ms-flex-pack: end;
-  justify-content: flex-end;
-  -webkit-box-align: end;
-  -ms-flex-align: end;
-  align-items: flex-end;
-  overflow-x: hidden;
-  height: 850px;
   background: url("../images/shop-3.jpg") no-repeat center center fixed;
+  position: relative;
+  overflow: hidden;
+  height: 60vw;
   background-size: cover; }
   #content22 .title {
     position: absolute;
-    top: 120px;
-    left: 180px;
+    top: 5vw;
+    left: 10vw;
     color: white;
-    font-size: 100px;
+    font-size: 8vw;
     font-weight: bold; }
   #content22 .subtitle {
     position: absolute;
-    width: 1000px;
+    font-size: 1.7vw;
+    width: 80vw;
     color: white;
-    padding-bottom: 75px;
-    padding-right: 50px; }
+    bottom: 10vw;
+    right: 5vw; }
 
 #content23 {
-  position: relative;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: end;
-  -ms-flex-pack: end;
-  justify-content: flex-end;
-  -webkit-box-align: end;
-  -ms-flex-align: end;
-  align-items: flex-end;
-  overflow-x: hidden;
-  height: 850px;
   background: url("../images/shop-4.jpg") no-repeat center center fixed;
+  position: relative;
+  overflow: hidden;
+  height: 60vw;
   background-size: cover; }
   #content23 .title {
     position: absolute;
-    top: 120px;
-    left: 180px;
+    top: 5vw;
+    left: 10vw;
     color: white;
-    font-size: 100px;
+    font-size: 8vw;
     font-weight: bold; }
   #content23 .subtitle {
     position: absolute;
-    width: 1000px;
+    font-size: 1.7vw;
+    width: 80vw;
     color: white;
-    padding-bottom: 75px;
-    padding-right: 50px; }
+    bottom: 10vw;
+    right: 5vw; }
 
 #content3 {
-  position: relative;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: end;
-  -ms-flex-pack: end;
-  justify-content: flex-end;
-  -webkit-box-align: end;
-  -ms-flex-align: end;
-  align-items: flex-end;
-  overflow-x: hidden;
-  height: 850px;
   background: url("../images/shop-5.jpg") no-repeat center center fixed;
+  position: relative;
+  overflow: hidden;
+  height: 60vw;
   background-size: cover; }
   #content3 .title {
     position: absolute;
-    top: 120px;
-    left: 180px;
+    top: 5vw;
+    left: 10vw;
     color: white;
-    font-size: 100px;
+    font-size: 8vw;
     font-weight: bold; }
   #content3 .subtitle {
     position: absolute;
-    width: 1000px;
+    font-size: 1.7vw;
+    width: 80vw;
     color: white;
-    padding-bottom: 75px;
-    padding-right: 50px; }
+    bottom: 10vw;
+    right: 5vw; }
 
 #content4 {
   position: relative;
@@ -204,25 +165,26 @@ fieldset, img {
   -webkit-box-pack: end;
   -ms-flex-pack: end;
   justify-content: flex-end;
-  height: 850px;
+  height: 52vw;
   background: url("../images/cambrils.JPG") no-repeat center center fixed;
   background-size: cover; }
   #content4 .title {
     position: absolute;
-    top: 120px;
-    left: 180px;
+    top: 5vw;
+    left: 10vw;
     color: white;
-    font-size: 100px;
+    font-size: 8vw;
     font-weight: bold; }
   #content4 .subtitle {
     position: absolute;
-    width: 700px;
+    font-size: 1.7vw;
+    width: 42vw;
     color: white;
-    padding-bottom: 150px;
-    padding-right: 50px; }
+    bottom: 10vw;
+    right: 4vw; }
   #content4 #map {
     position: absolute;
-    width: 700px;
-    height: 400px;
-    top: 300px;
-    left: 100px; }
+    width: 42vw;
+    height: 27vw;
+    top: 18vw;
+    left: 7vw; }

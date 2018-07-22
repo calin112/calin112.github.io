@@ -63,7 +63,7 @@ fieldset, img {
     font-weight: bold; }
   #content1 .subtitle {
     position: absolute;
-    font-size: 4vh;
+    font-size: 3.8vh;
     width: 95vw;
     color: white;
     bottom: 9vh;
@@ -84,7 +84,7 @@ fieldset, img {
     font-weight: bold; }
   #content21 .subtitle {
     position: absolute;
-    font-size: 4vh;
+    font-size: 3.8vh;
     width: 95vw;
     color: white;
     bottom: 9vh;
@@ -105,7 +105,7 @@ fieldset, img {
     font-weight: bold; }
   #content22 .subtitle {
     position: absolute;
-    font-size: 4vh;
+    font-size: 3.8vh;
     width: 95vw;
     color: white;
     bottom: 9vh;
@@ -126,7 +126,7 @@ fieldset, img {
     font-weight: bold; }
   #content23 .subtitle {
     position: absolute;
-    font-size: 4vh;
+    font-size: 3.8vh;
     width: 95vw;
     color: white;
     bottom: 9vh;
@@ -147,7 +147,7 @@ fieldset, img {
     font-weight: bold; }
   #content3 .subtitle {
     position: absolute;
-    font-size: 4vh;
+    font-size: 3.8vh;
     width: 95vw;
     color: white;
     bottom: 9vh;
@@ -156,7 +156,7 @@ fieldset, img {
 #content4 {
   position: relative;
   overflow: hidden;
-  height: 110vh;
+  height: 100vh;
   background: url("../images/cambrils.JPG") no-repeat center center fixed;
   background-size: cover; }
   #content4 .title {
@@ -168,15 +168,14 @@ fieldset, img {
     font-weight: bold; }
   #content4 .subtitle {
     position: absolute;
-    font-size: 3vh;
+    font-size: 2vh;
     width: 95vw;
     color: white;
-    bottom: 0.5vh;
+    bottom: 2vh;
     left: 1vh;
     right: 1vh; }
   #content4 #map {
     position: absolute;
-    width: 80vw;
+    width: 100%;
     height: 49vh;
-    top: 24vh;
-    left: 10px; }
+    top: 24vh; }

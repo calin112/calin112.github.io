@@ -1,4 +1,10 @@
 $(document).ready(function(){
+  $('.nav-hide').on('click',function() {
+    $('.navbar-collapse').collapse('hide');
+  });
+});
+
+$(document).ready(function(){
   // Add scrollspy to <body>
   $('body').scrollspy({target: ".navbar", offset: 50});
 

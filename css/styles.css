@@ -34,7 +34,7 @@ fieldset, img {
 
 .full-width-image {
   height: 800px;
-  background: url("shop-0.jpg") no-repeat center center fixed;
+  background: url("shop-0.JPG") no-repeat center center fixed;
   background-size: cover;
   -webkit-animation: fadein 5s 1;
   /* Safari 4+ */
@@ -49,5 +49,5 @@ fieldset, img {
 
 .full-width-image-2 {
   height: 500px;
-  background: url("shop-1.jpg") no-repeat center center fixed;
+  background: url("shop-1.JPG") no-repeat center center fixed;
   background-size: cover; }

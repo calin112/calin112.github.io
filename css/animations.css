@@ -20,19 +20,19 @@
 /*Slide Left*/
 
 @-webkit-keyframes slide-left {
-    100% { right: 40px; }
+    100% { right: 5vh; }
 }
 
 @keyframes slide-left {
-    100% { right: 40px; }
+    100% { right: 5vh; }
 }
 
 /*Slide Left Subtitle*/
 
 @-webkit-keyframes slide-left-2 {
-    100% { right: 0; }
+    100% { right: 5vh; }
 }
 
 @keyframes slide-left-2 {
-    100% { right: 0; }
+    100% { right: 5vh; }
 }

@@ -4,23 +4,23 @@
 @mixin sections {
   position: relative;
   overflow: hidden;
-  height: 60vw;
+  height: 110vh;
   background-size: cover;
   .title {
     position: absolute;
-    top: 5vw;
+    top: 10vh;
     left: 10vw;
     color: white;
-    font-size: 8vw;
+    font-size: 10vh;
     font-weight: bold;
   }
   .subtitle {
     position: absolute;
-    font-size: 1.7vw;
-    width: 80vw;
+    font-size: 4vh;
+    width: 100vh;
     color: white;
-    bottom: 10vw;
-    right: 5vw;
+    bottom: 10vh;
+    right: 1vw;
   }
 }
 
@@ -40,7 +40,7 @@ fieldset, img {
 #content0 {
   position: relative;
   overflow: hidden;
-  height: 52vw;
+  height: 110vh;
   background: url("../images/shop-0.JPG") no-repeat center center fixed;
   background-size: cover;
   -webkit-animation: fadein 5s 1; /* Safari 4+ */
@@ -49,10 +49,10 @@ fieldset, img {
   animation:         fadein 5s 1; /* IE 10+, Fx 29+ */
 
   .title {
-    width: 40vw;
+    width: 60vh;
     position: absolute;
-    right: -40vw;
-    bottom: 10vw;
+    right: -80vh;
+    bottom: 20vh;
     -webkit-animation: slide-left 0.5s forwards;
     -webkit-animation-delay: 3s;
     animation: slide-left 2s forwards;
@@ -60,11 +60,11 @@ fieldset, img {
   }
 
   .subtitle {
-    width: 25vw;
-    font-size: 2vw;
+    width: 40vh;
+    font-size: 3vh;
     position: absolute;
-     bottom: 5vw;
-     right: -40vw;
+     bottom: 14vh;
+     right: -80vh;
      color: white;
      -webkit-animation: slide-left-2 0.5s forwards;
      -webkit-animation-delay: 3.3s;
@@ -101,33 +101,30 @@ fieldset, img {
 #content4 {
   position: relative;
   overflow: hidden;
-  display: flex;
-  align-items: flex-end;
-  justify-content: flex-end;
-  height: 52vw;
+  height: 110vh;
   background: url("../images/cambrils.JPG") no-repeat center center fixed;
   background-size: cover;
   .title {
     position: absolute;
-    top: 5vw;
+    top: 10vh;
     left: 10vw;
     color: white;
-    font-size: 8vw;
+    font-size: 10vh;
     font-weight: bold;
   }
   .subtitle {
     position: absolute;
-    font-size: 1.7vw;
-    width: 42vw;
+    font-size: 3vh;
+    width: 100vh;
     color: white;
-    bottom: 10vw;
-    right: 4vw;
+    bottom: 8vh;
+    right: 1vw;
   }
   #map {
     position: absolute;
-    width: 42vw;
-    height: 27vw;
-    top: 18vw;
-    left: 7vw;
+    width: 70vh;
+    height: 50vh;
+    top: 24vh;
+    left: 8vh;
   }
 }

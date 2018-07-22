@@ -1,0 +1,37 @@
+//Fade In
+
+@-webkit-keyframes fadein {
+  0%   { opacity: 0; }
+  100% { opacity: 1; }
+}
+@-moz-keyframes fadein {
+  0%   { opacity: 0; }
+  100% { opacity: 1; }
+}
+@-o-keyframes fadein {
+  0%   { opacity: 0; }
+  100% { opacity: 1; }
+}
+@keyframes fadein {
+  0%   { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+//Darken
+
+@-webkit-keyframes darken {
+  0%   { filter: brightness(100%); }
+  100% { filter: brightness(50%); }
+}
+@-moz-keyframes darken {
+  0%   { filter: brightness(100%); }
+  100% { filter: brightness(50%); }
+}
+@-o-keyframes darken {
+  0%   { filter: brightness(100%); }
+  100% { filter: brightness(50%); }
+}
+@keyframes darken {
+  0%   { filter: brightness(100%); }
+  100% { filter: brightness(50%); }
+}

@@ -114,7 +114,7 @@ fieldset, img {
   align-items: flex-end;
   overflow-x: hidden;
   height: 850px;
-  background: url("../images/shop-2.JPG") no-repeat center center fixed;
+  background: url("../images/shop-2.jpg") no-repeat center center fixed;
   background-size: cover; }
   #content21 .title {
     position: absolute;

@@ -1,9 +1,40 @@
+//Navbar Collapse
+
 $(document).ready(function(){
   $('.nav-hide').on('click',function() {
     $('.navbar-collapse').collapse('hide');
   });
 });
 
+//Go down arrow
+
+$(document).ready(function(){
+  $("a").on('click', function(event) {
+    if (this.hash !== "") {
+      event.preventDefault();
+      var hash = this.hash;
+      $('html, body').animate({
+        scrollTop: $(hash).offset().top
+      }, 1000, function(){
+        window.location.hash = hash;
+      });
+    }
+  });
+});
+
+//Navbar Opacity
+/*
+$(document).ready(function(){
+  $(window).scroll(function(){
+    if($(this).scrollTop() > 0) {
+      $("#myNavbar").css({"opacity" : "1"})
+    }
+    else {
+      $("#myNavbar").css({"opacity" : "0"})
+    }
+  })
+})
+*/
 $(document).ready(function(){
   // Add scrollspy to <body>
   $('body').scrollspy({target: ".navbar", offset: 50});

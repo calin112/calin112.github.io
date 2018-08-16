@@ -10,29 +10,30 @@
     <link rel="stylesheet" href="css/prebootstrap.css">
     <link rel="stylesheet" href="bootstrap/css/bootstrap.css">
     <link rel="stylesheet" href="css/styles.css">
-
+    <link rel="stylesheet" href="css/animate.css">
+    <link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
     <link href="images/logo-black-icon.png" rel="shortcut icon">
   </head>
   <body data-spy="scroll" data-target=".navbar" data-offset="50">
-      <nav class="navbar navbar-expand-md navbar-custom fixed-top" id="myNavbar">
-        <a class="navbar-brand" href="#content0"><img id="logo" src="images/logo-white.png"></img></a>
+      <nav id="myNavbar" class="navbar navbar-expand-md navbar-dark bg-dark fixed-top bg-faded">
+        <a class="navbar-brand ml-5 pl-5" href="#content0"><img id="logo" src="images/logo-white.png"></img></a>
         <button class="navbar-toggler custom-toggler" data-toggle="collapse" data-target="#myNavbar2">
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="myNavbar2">
-          <ul class="navbar-nav mr-auto">
+          <ul class="navbar-nav ml-auto mr-5 pr-5">
             <li class="nav-item">
               <a class="nav-link active nav-hide" href="#content1">Nosotros</a>
             </li>
             <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown" data-target="dropdown_target">
+              <a class="nav-link dropdown-toggle bg-dark" href="#" data-toggle="dropdown" data-target="dropdown_target">
                 Productos
                 <span class="caret"></span>
               </a>
-            <div class="dropdown-menu navbar-custom" aria-labelledby="dropdown_target">
+            <div class="dropdown-menu navbar-dark bg-dark" aria-labelledby="dropdown_target">
               <a class="dropdown-item nav-hide" href="#content21">Marcos</a>
               <a class="dropdown-item nav-hide" href="#content22">Cristales</a>
-              <a class="dropdown-item nav-hide" href="#content23">Cuadros</a>
+              <a class="dropdown-item nav-hide" href="#content23">Persianas</a>
             </div>
             </li>
             <li class="nav-item" >
@@ -41,43 +42,64 @@
             <li class="nav-item">
               <a class="nav-link nav-hide" href="#content4">Contacto</a>
             </li>
-
+            <li class="nav-item">
+              <a class="nav-link nav-hide" href="#map">Mapa</a>
+            </li>
           </ul>
         </div>
       </nav>
       <!--<img src="images/shop-1.jpg" class="img-fluid"></img>-->
       <div id="content0">
-        <img class="title" src="images/logo-white.png" />
+        <div class="backPhoto"></div>
+        <img class="title" src="images/logo-white.png" /></a>
         <h2 class="subtitle">A su servicio desde 1988</h2>
+        <a href="#content1"><img id="down" src="images/arrow-2.png"></img></a>
       </div>
       <div id="content1">
-        <h1 class="title">Nosotros</h1>
-        <h3 class="subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</h3>
+        <h1 id="titulo">Sobre Nosotros</h1>
+        <div class="photo"></div>
+        <p class="arti ml-5 pl-5 mr-5 pr-5">Somos una empresa de reconocido prestigio en nuestro sector.</p>
+        <p class="arti ml-5 pl-5 mr-5 pr-5">Te ofrecemos una amplia gama de productos y servicios a unos precios muy competitivos y de la máxima calidad respaldados por un equipo que se caracteriza por su trato cordial y espíritu de servicio.</p>
+        <p class="arti ml-5 pl-5 mr-5 pr-5">Nos encantará mostrarte todas las posibilidades y opciones a tu disposición, estamos convencidos de que encontrarás lo que estás buscando.</p>
+        <p class="arti ml-5 pl-5 mr-5 pr-5">La meta principal de nuestra empresa es, sin duda, poder satisfacer todas las necesidades de nuestros clientes.</p>
+      </div>
+      <div id="content11">
+        <h1 id="titulo">Nuestro Equipo</h1>
+        <div class="photo"></div>
       </div>
       </div>
       <div id="content21">
-        <h1 class="title">Marcos</h1>
-        <h3 class="subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</h3>
+        <h1 id="titulo">Marcos</h1>
+        <div class="photo"></div>
+        <h3 class="arti">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</h3>
       </div>
       <div id="content22">
-        <h1 class="title">Cristales</h1>
-        <h3 class="subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</h3>
+        <h1 id="titulo">Cristales</h1>
+        <div class="photo"></div>
+        <h3 class="arti">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</h3>
       </div>
       <div id="content23">
-        <h1 class="title">Cuadros</h1>
-        <h3 class="subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</h3>
+        <h1 id="titulo">Aluminios</h1>
+        <div class="photo"></div>
+        <h3 class="arti">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</h3>
+      </div>
+      <div id="content24">
+        <h1 id="titulo">Persianas</h1>
+        <div class="photo"></div>
+        <h3 class="arti">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</h3>
       </div>
       <div id="content3">
-        <h1 class="title">Servicios</h1>
-        <h3 class="subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</h3>
+        <h1 id="titulo">Servicios</h1>
+        <div class="photo"></div>
+        <h3 class="arti">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</h3>
       </div>
       <div id="content4">
-        <h1 class="title">Contacto</h1>
+        <h1 id="titulo">Contacto</h1>
         <div id="map"></div>
-        <h3 class="subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</h3>
+        <h3 class="arti">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</h3>
       </div>
-      <script async defer
-      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCtlEVbXTCyt11CEYuti_zCpYi3_lV-aXY&callback=initMap">
-      </script>
+      <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCtlEVbXTCyt11CEYuti_zCpYi3_lV-aXY&callback=initMap"
+    async defer></script>
+      <footer> Lumarc todos los derechos reservados </footer>
   </body>
 </html>

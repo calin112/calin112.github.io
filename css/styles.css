@@ -23,6 +23,16 @@ body {
 fieldset, img {
   border: 0; }
 
+.animateFadeIn {
+  -webkit-animation: fadein 5s 1;
+  /* Safari 4+ */
+  -moz-animation: fadein 5s 1;
+  /* Fx 5+ */
+  -o-animation: fadein 5s 1;
+  /* Opera 12+ */
+  animation: fadein 5s 1;
+  /* IE 10+, Fx 29+ */ }
+
 #content0 {
   position: relative;
   overflow: hidden;
@@ -33,15 +43,7 @@ fieldset, img {
     overflow: hidden;
     height: 100vh;
     background: url("../images/tienda-1-1.jpg") no-repeat center center fixed;
-    background-size: cover;
-    -webkit-animation: fadein 5s 1;
-    /* Safari 4+ */
-    -moz-animation: fadein 5s 1;
-    /* Fx 5+ */
-    -o-animation: fadein 5s 1;
-    /* Opera 12+ */
-    animation: fadein 5s 1;
-    /* IE 10+, Fx 29+ */ }
+    background-size: cover; }
   #content0 .title {
     width: 60vh;
     position: absolute;

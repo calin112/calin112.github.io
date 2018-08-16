@@ -1,3 +1,9 @@
+//Wait until page loads
+
+$(document).ready(function() {
+    $(".backPhoto").addClass("animateFadeIn");
+});
+
 //Navbar Collapse
 
 $(document).ready(function(){

@@ -10,7 +10,7 @@
     top: 9vh;
     left: 10vw;
     color: black;
-    font-size: 8vh;
+    font-size: 7vh;
     font-weight: bold;
   }
   .arti {
@@ -105,7 +105,7 @@ fieldset, img {
   @include sections;
   height: 100vh;
   .photo {
-    background: url("../images/principal-3.JPG") no-repeat center center fixed;
+    background: url("../images/principal-3.jpg") no-repeat center center;
       position: relative;
       overflow: hidden;
       top: 21vh;

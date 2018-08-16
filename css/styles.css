@@ -95,7 +95,7 @@ fieldset, img {
     top: 9vh;
     left: 10vw;
     color: black;
-    font-size: 8vh;
+    font-size: 7vh;
     font-weight: bold; }
   #content1 .arti {
     position: relative;
@@ -103,7 +103,7 @@ fieldset, img {
     color: black;
     top: 25vh; }
   #content1 .photo {
-    background: url("../images/principal-3.JPG") no-repeat center center fixed;
+    background: url("../images/principal-3.jpg") no-repeat center center;
     position: relative;
     overflow: hidden;
     top: 21vh;
@@ -128,7 +128,7 @@ fieldset, img {
     top: 9vh;
     left: 10vw;
     color: black;
-    font-size: 8vh;
+    font-size: 7vh;
     font-weight: bold; }
   #content11 .arti {
     position: relative;
@@ -145,7 +145,7 @@ fieldset, img {
     top: 9vh;
     left: 10vw;
     color: black;
-    font-size: 8vh;
+    font-size: 7vh;
     font-weight: bold; }
   #content21 .arti {
     position: relative;
@@ -169,7 +169,7 @@ fieldset, img {
     top: 9vh;
     left: 10vw;
     color: black;
-    font-size: 8vh;
+    font-size: 7vh;
     font-weight: bold; }
   #content22 .arti {
     position: relative;
@@ -193,7 +193,7 @@ fieldset, img {
     top: 9vh;
     left: 10vw;
     color: black;
-    font-size: 8vh;
+    font-size: 7vh;
     font-weight: bold; }
   #content23 .arti {
     position: relative;
@@ -217,7 +217,7 @@ fieldset, img {
     top: 9vh;
     left: 10vw;
     color: black;
-    font-size: 8vh;
+    font-size: 7vh;
     font-weight: bold; }
   #content24 .arti {
     position: relative;
@@ -241,7 +241,7 @@ fieldset, img {
     top: 9vh;
     left: 10vw;
     color: black;
-    font-size: 8vh;
+    font-size: 7vh;
     font-weight: bold; }
   #content3 .arti {
     position: relative;
@@ -270,7 +270,7 @@ fieldset, img {
     top: 9vh;
     left: 10vw;
     color: black;
-    font-size: 8vh;
+    font-size: 7vh;
     font-weight: bold; }
   #content4 .arti {
     position: relative;

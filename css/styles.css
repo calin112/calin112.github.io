@@ -32,7 +32,7 @@ fieldset, img {
     position: relative;
     overflow: hidden;
     height: 100vh;
-    background: url("../images/tienda-1-1.JPG") no-repeat center center fixed;
+    background: url("../images/tienda-1-1.jpg") no-repeat center center fixed;
     background-size: cover;
     -webkit-animation: fadein 5s 1;
     /* Safari 4+ */

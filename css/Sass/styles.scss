@@ -31,7 +31,7 @@
 }
 
 #logo {
-  height: 30px;
+  height: 28px;
 }
 
 body {
@@ -64,10 +64,10 @@ fieldset, img {
     background-size: cover;
   }
   .title {
-    width: 60vh;
+    width: 30vw;
     position: absolute;
     right: -80vh;
-    bottom: 20vh;
+    bottom: 22vh;
     -webkit-animation: fadeInUp 0.5s forwards;
     -webkit-animation-delay: 3s;
     animation: fadeInUp 2s forwards;
@@ -76,10 +76,10 @@ fieldset, img {
   }
 
   .subtitle {
-    width: 40vh;
-    font-size: 3vh;
+    width: 20vw;
+    font-size: 1.5vw;
     position: absolute;
-     bottom: 14vh;
+     bottom: 16vh;
      right: -80vh;
      color: white;
      -webkit-animation: fadeInUp 0.5s forwards;
@@ -98,6 +98,31 @@ fieldset, img {
     -o-animation:      fadein 3s 1 forwards; /* Opera 12+ */
     animation:         fadein 3s 1 forwards; /* IE 10+, Fx 29+ */
     animation-delay: 5s;
+  }
+
+  // Medium devices (tablets, less than 992px)
+  @media (max-width: 991.98px) {
+    .title {
+      width: 32vw;
+      bottom: 22vh;
+    }
+    .subtitle {
+      font-size: 2vw;
+      width: 300px;
+
+    }
+  }
+
+  @media (max-width: 767.98px) {
+    .title {
+      width: 300px;
+      bottom: 22vh;
+    }
+    .subtitle {
+      width: 300px;
+      font-size: 20px;
+      bottom: 16vh;
+    }
   }
 }
 
@@ -174,6 +199,19 @@ fieldset, img {
       }
   }
 
+}
+
+#content12 {
+  @include sections;  
+  .instaimg img {margin-bottom:30px;}
+  .instaimg img:hover {
+    opacity:0.8;
+    -moz-opacity:0.8;
+    -webkit-opacity:0.8;
+  }
+  .container {
+    padding-top: 200px;
+  }
 }
 
 #content21 {
@@ -275,7 +313,7 @@ footer {
     font-size: 30px;
   }
   #logo {
-    height: 25px;
+    height: 23px;
   }
   .pl-5 {
     padding-left: 0rem;

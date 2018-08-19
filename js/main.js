@@ -79,3 +79,32 @@ function initMap() {
   // The marker, positioned at lumarc
   var marker = new google.maps.Marker({position: lumarc, map: map});
 }
+
+//InstaFeed
+
+$(document).ready(function() {
+
+
+    var userFeed = new Instafeed({
+        get: 'user',
+        userId: '988779762',
+        limit: 50,
+        resolution: 'standard_resolution',
+        accessToken: '988779762.1677ed0.f57b0797fbf4439985131c7de563cbd5',
+        sortBy: 'most-recent',
+        template: '<div class="col-lg-3 instaimg"><a href="{{image}}" title="{{caption}}" target="_blank"><img src="{{image}}" alt="{{caption}}" class="img-fluid"/></a></div>',
+    });
+
+
+    userFeed.run();
+
+    
+    // This will create a single gallery from all elements that have class "gallery-item"
+    $('.gallery').magnificPopup({
+        type: 'image',
+        delegate: 'a',
+        gallery: {
+            enabled: true
+        }
+    });
+});

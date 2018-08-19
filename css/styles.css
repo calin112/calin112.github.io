@@ -14,7 +14,7 @@
   animation-delay: 3s; }
 
 #logo {
-  height: 30px; }
+  height: 28px; }
 
 body {
   font-family: 'Montserrat', sans-serif;
@@ -45,10 +45,10 @@ fieldset, img {
     background: url("../images/tienda-1-1.jpg") no-repeat center center fixed;
     background-size: cover; }
   #content0 .title {
-    width: 60vh;
+    width: 30vw;
     position: absolute;
     right: -80vh;
-    bottom: 20vh;
+    bottom: 22vh;
     -webkit-animation: fadeInUp 0.5s forwards;
     -webkit-animation-delay: 3s;
     -webkit-animation: fadeInUp 2s forwards;
@@ -56,10 +56,10 @@ fieldset, img {
     animation-delay: 3s;
     opacity: 1; }
   #content0 .subtitle {
-    width: 40vh;
-    font-size: 3vh;
+    width: 20vw;
+    font-size: 1.5vw;
     position: absolute;
-    bottom: 14vh;
+    bottom: 16vh;
     right: -80vh;
     color: white;
     -webkit-animation: fadeInUp 0.5s forwards;
@@ -84,6 +84,21 @@ fieldset, img {
     /* IE 10+, Fx 29+ */
     -webkit-animation-delay: 5s;
     animation-delay: 5s; }
+  @media (max-width: 991.98px) {
+    #content0 .title {
+      width: 32vw;
+      bottom: 22vh; }
+    #content0 .subtitle {
+      font-size: 2vw;
+      width: 300px; } }
+  @media (max-width: 767.98px) {
+    #content0 .title {
+      width: 300px;
+      bottom: 22vh; }
+    #content0 .subtitle {
+      width: 300px;
+      font-size: 20px;
+      bottom: 16vh; } }
 
 #content1 {
   position: relative;
@@ -177,6 +192,31 @@ fieldset, img {
       -webkit-box-flex: 100%;
       flex: 100%;
       max-width: 100%; } }
+
+#content12 {
+  position: relative;
+  overflow: hidden;
+  background-size: cover; }
+  #content12 #titulo {
+    position: absolute;
+    top: 9vh;
+    left: 10vw;
+    color: black;
+    font-size: 7vh;
+    font-weight: bold; }
+  #content12 .arti {
+    position: relative;
+    font-size: 2.5vh;
+    color: black;
+    top: 25vh; }
+  #content12 .instaimg img {
+    margin-bottom: 30px; }
+  #content12 .instaimg img:hover {
+    opacity: 0.8;
+    -moz-opacity: 0.8;
+    -webkit-opacity: 0.8; }
+  #content12 .container {
+    padding-top: 200px; }
 
 #content21 {
   position: relative;
@@ -335,7 +375,7 @@ footer {
   .arti {
     font-size: 30px; }
   #logo {
-    height: 25px; }
+    height: 23px; }
   .pl-5 {
     padding-left: 0rem; }
   .ml-5 {

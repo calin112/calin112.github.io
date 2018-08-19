@@ -108,7 +108,6 @@ fieldset, img {
   #content1 #titulo {
     position: absolute;
     top: 9vh;
-    left: 10vw;
     color: black;
     font-size: 7vh;
     font-weight: bold; }
@@ -144,7 +143,6 @@ fieldset, img {
   #content11 #titulo {
     position: absolute;
     top: 9vh;
-    left: 10vw;
     color: black;
     font-size: 7vh;
     font-weight: bold; }
@@ -200,7 +198,6 @@ fieldset, img {
   #content12 #titulo {
     position: absolute;
     top: 9vh;
-    left: 10vw;
     color: black;
     font-size: 7vh;
     font-weight: bold; }
@@ -215,7 +212,7 @@ fieldset, img {
     opacity: 0.8;
     -moz-opacity: 0.8;
     -webkit-opacity: 0.8; }
-  #content12 .container {
+  #content12 .container-fluid {
     padding-top: 200px; }
 
 #content21 {
@@ -225,7 +222,6 @@ fieldset, img {
   #content21 #titulo {
     position: absolute;
     top: 9vh;
-    left: 10vw;
     color: black;
     font-size: 7vh;
     font-weight: bold; }
@@ -249,7 +245,6 @@ fieldset, img {
   #content22 #titulo {
     position: absolute;
     top: 9vh;
-    left: 10vw;
     color: black;
     font-size: 7vh;
     font-weight: bold; }
@@ -273,7 +268,6 @@ fieldset, img {
   #content23 #titulo {
     position: absolute;
     top: 9vh;
-    left: 10vw;
     color: black;
     font-size: 7vh;
     font-weight: bold; }
@@ -297,7 +291,6 @@ fieldset, img {
   #content24 #titulo {
     position: absolute;
     top: 9vh;
-    left: 10vw;
     color: black;
     font-size: 7vh;
     font-weight: bold; }
@@ -321,7 +314,6 @@ fieldset, img {
   #content3 #titulo {
     position: absolute;
     top: 9vh;
-    left: 10vw;
     color: black;
     font-size: 7vh;
     font-weight: bold; }
@@ -350,7 +342,6 @@ fieldset, img {
   #content4 #titulo {
     position: absolute;
     top: 9vh;
-    left: 10vw;
     color: black;
     font-size: 7vh;
     font-weight: bold; }

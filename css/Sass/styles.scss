@@ -8,7 +8,6 @@
   #titulo {
     position: absolute;
     top: 9vh;
-    left: 10vw;
     color: black;
     font-size: 7vh;
     font-weight: bold;
@@ -209,7 +208,7 @@ fieldset, img {
     -moz-opacity:0.8;
     -webkit-opacity:0.8;
   }
-  .container {
+  .container-fluid {
     padding-top: 200px;
   }
 }

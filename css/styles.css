@@ -42,13 +42,13 @@ fieldset, img {
     position: relative;
     overflow: hidden;
     height: 100vh;
-    background: url("../images/tienda-1-1.jpg") no-repeat center center fixed;
+    background: url("../images/tienda-1-1.jpg") no-repeat center top fixed;
     background-size: cover; }
   #content0 .title {
     width: 30vw;
     position: absolute;
     right: -80vh;
-    bottom: 22vh;
+    bottom: 14vh;
     -webkit-animation: fadeInUp 0.5s forwards;
     -webkit-animation-delay: 3s;
     -webkit-animation: fadeInUp 2s forwards;
@@ -59,7 +59,7 @@ fieldset, img {
     width: 20vw;
     font-size: 1.5vw;
     position: absolute;
-    bottom: 16vh;
+    bottom: 10vh;
     right: -80vh;
     color: white;
     -webkit-animation: fadeInUp 0.5s forwards;
@@ -103,6 +103,7 @@ fieldset, img {
 #content1 {
   position: relative;
   overflow: hidden;
+  display: inline-block;
   background-size: cover;
   height: 100vh; }
   #content1 #titulo {
@@ -123,19 +124,11 @@ fieldset, img {
     top: 21vh;
     height: 50vh;
     background-size: cover; }
-  @media (max-width: 991.98px) {
-    #content1 {
-      height: 110vh; } }
-  @media (max-width: 767.98px) {
-    #content1 {
-      height: 120vh; } }
-  @media (max-width: 575.98px) {
-    #content1 {
-      height: 130vh; } }
 
 #content11 {
   position: relative;
   overflow: hidden;
+  display: inline-block;
   background-size: cover;
   /* Create four equal columns that sits next to each other */
   /* Responsive layout - makes a two column-layout instead of four columns */
@@ -194,6 +187,7 @@ fieldset, img {
 #content12 {
   position: relative;
   overflow: hidden;
+  display: inline-block;
   background-size: cover; }
   #content12 #titulo {
     position: absolute;
@@ -207,18 +201,26 @@ fieldset, img {
     color: black;
     top: 25vh; }
   #content12 .instaimg img {
-    margin-bottom: 30px; }
+    margin-bottom: 30px;
+    -webkit-transition: .3s;
+    -o-transition: .3s;
+    transition: .3s; }
   #content12 .instaimg img:hover {
     opacity: 0.8;
     -moz-opacity: 0.8;
-    -webkit-opacity: 0.8; }
+    -webkit-opacity: 0.8;
+    -webkit-transition: .3s;
+    -o-transition: .3s;
+    transition: .3s; }
   #content12 .container-fluid {
     padding-top: 200px; }
 
 #content21 {
   position: relative;
   overflow: hidden;
-  background-size: cover; }
+  display: inline-block;
+  background-size: cover;
+  height: 100vh; }
   #content21 #titulo {
     position: absolute;
     top: 9vh;
@@ -231,17 +233,19 @@ fieldset, img {
     color: black;
     top: 25vh; }
   #content21 .photo {
-    background: url("../images/marcos-1.jpg") no-repeat center center fixed;
+    background: url("../images/marcos-1.jpg") no-repeat top center;
     position: relative;
     overflow: hidden;
     top: 21vh;
-    height: 50vh;
+    height: 400px;
     background-size: cover; }
 
 #content22 {
   position: relative;
   overflow: hidden;
-  background-size: cover; }
+  display: inline-block;
+  background-size: cover;
+  height: 90vh; }
   #content22 #titulo {
     position: absolute;
     top: 9vh;
@@ -254,17 +258,19 @@ fieldset, img {
     color: black;
     top: 25vh; }
   #content22 .photo {
-    background: url("../images/espejos.jpg") no-repeat center center fixed;
+    background: url("../images/espejos.jpg") no-repeat center center;
     position: relative;
     overflow: hidden;
     top: 21vh;
-    height: 50vh;
+    height: 400px;
     background-size: cover; }
 
 #content23 {
   position: relative;
   overflow: hidden;
-  background-size: cover; }
+  display: inline-block;
+  background-size: cover;
+  height: 90vh; }
   #content23 #titulo {
     position: absolute;
     top: 9vh;
@@ -277,7 +283,7 @@ fieldset, img {
     color: black;
     top: 25vh; }
   #content23 .photo {
-    background: url("../images/escaparate-2.jpg") no-repeat center center fixed;
+    background: url("../images/escaparate-2.jpg") no-repeat center center;
     position: relative;
     overflow: hidden;
     top: 21vh;
@@ -287,7 +293,9 @@ fieldset, img {
 #content24 {
   position: relative;
   overflow: hidden;
-  background-size: cover; }
+  display: inline-block;
+  background-size: cover;
+  height: 90vh; }
   #content24 #titulo {
     position: absolute;
     top: 9vh;
@@ -300,7 +308,7 @@ fieldset, img {
     color: black;
     top: 25vh; }
   #content24 .photo {
-    background: url("../images/tienda-2.jpg") no-repeat center center fixed;
+    background: url("../images/tienda-2.jpg") no-repeat center center;
     position: relative;
     overflow: hidden;
     top: 21vh;
@@ -310,7 +318,9 @@ fieldset, img {
 #content3 {
   position: relative;
   overflow: hidden;
-  background-size: cover; }
+  display: inline-block;
+  background-size: cover;
+  height: 90vh; }
   #content3 #titulo {
     position: absolute;
     top: 9vh;
@@ -323,7 +333,7 @@ fieldset, img {
     color: black;
     top: 25vh; }
   #content3 .photo {
-    background: url("../images/servicios-1.jpg") no-repeat center center fixed;
+    background: url("../images/servicios-1.jpg") no-repeat center center;
     position: relative;
     overflow: hidden;
     top: 21vh;
@@ -338,6 +348,7 @@ fieldset, img {
 #content4 {
   position: relative;
   overflow: hidden;
+  display: inline-block;
   background-size: cover; }
   #content4 #titulo {
     position: absolute;
@@ -362,7 +373,29 @@ footer {
   color: white;
   text-align: center; }
 
+@media (max-width: 575.98px) {
+  #content1, #content21 {
+    height: 110vh; }
+  #content21, #content22, #content23, #content24, #content3 {
+    height: 100vh; } }
+
+@media (max-width: 767.98px) {
+  #content1, #content21 {
+    height: 120vh; }
+  #content22, #content23, #content24, #content3 {
+    height: 110vh; } }
+
 @media (max-width: 991.98px) {
+  #content1, #content21 {
+    height: 130vh; }
+    #content1 .arti, #content21 .arti {
+      padding-left: 1.35rem;
+      padding-right: 1.35rem; }
+  #content21, #content22, #content23, #content24, #content3 {
+    height: 125vh; }
+    #content21 .arti, #content22 .arti, #content23 .arti, #content24 .arti, #content3 .arti {
+      padding-left: 1.35rem;
+      padding-right: 1.35rem; }
   .arti {
     font-size: 30px; }
   #logo {

@@ -4,6 +4,7 @@
 @mixin sections {
   position: relative;
   overflow: hidden;
+  display: inline-block;
   background-size: cover;
   #titulo {
     position: absolute;
@@ -59,14 +60,14 @@ fieldset, img {
     position: relative;
     overflow: hidden;
     height: 100vh;
-    background: url("../images/tienda-1-1.jpg") no-repeat center center fixed;
+    background: url("../images/tienda-1-1.jpg") no-repeat center top fixed;
     background-size: cover;
   }
   .title {
     width: 30vw;
     position: absolute;
     right: -80vh;
-    bottom: 22vh;
+    bottom: 14vh;
     -webkit-animation: fadeInUp 0.5s forwards;
     -webkit-animation-delay: 3s;
     animation: fadeInUp 2s forwards;
@@ -78,7 +79,7 @@ fieldset, img {
     width: 20vw;
     font-size: 1.5vw;
     position: absolute;
-     bottom: 16vh;
+     bottom: 10vh;
      right: -80vh;
      color: white;
      -webkit-animation: fadeInUp 0.5s forwards;
@@ -136,16 +137,7 @@ fieldset, img {
       height: 50vh;
       background-size: cover;
   }
-  @media (max-width: 991.98px) {
-    height: 110vh;
-  }
-  // Small devices (landscape phones, less than 768px)
-  @media (max-width: 767.98px) {
-    height: 120vh;
-  }
-  @media (max-width: 575.98px) {
-    height: 130vh;
-  }
+
 }
 
 #content11 {
@@ -202,11 +194,15 @@ fieldset, img {
 
 #content12 {
   @include sections;  
-  .instaimg img {margin-bottom:30px;}
+  .instaimg img {
+    margin-bottom:30px;
+    transition: .3s;
+  }
   .instaimg img:hover {
     opacity:0.8;
     -moz-opacity:0.8;
     -webkit-opacity:0.8;
+    transition: .3s;
   }
   .container-fluid {
     padding-top: 200px;
@@ -215,32 +211,35 @@ fieldset, img {
 
 #content21 {
   @include sections;
+  height: 100vh;
   .photo {
-    background: url("../images/marcos-1.jpg") no-repeat center center fixed;
+    background: url("../images/marcos-1.jpg") no-repeat top center;
       position: relative;
       overflow: hidden;
       top: 21vh;
-      height: 50vh;
+      height: 400px;
       background-size: cover;
   }
 }
 
 #content22 {
   @include sections;
+  height: 90vh;
   .photo {
-    background: url("../images/espejos.jpg") no-repeat center center fixed;
+    background: url("../images/espejos.jpg") no-repeat center center;
       position: relative;
       overflow: hidden;
       top: 21vh;
-      height: 50vh;
+      height: 400px;
       background-size: cover;
   }
 }
 
 #content23 {
   @include sections;
+  height: 90vh;
   .photo {
-    background: url("../images/escaparate-2.jpg") no-repeat center center fixed;
+    background: url("../images/escaparate-2.jpg") no-repeat center center;
       position: relative;
       overflow: hidden;
       top: 21vh;
@@ -251,8 +250,9 @@ fieldset, img {
 
 #content24 {
   @include sections;
+  height: 90vh;
   .photo {
-    background: url("../images/tienda-2.jpg") no-repeat center center fixed;
+    background: url("../images/tienda-2.jpg") no-repeat center center;
       position: relative;
       overflow: hidden;
       top: 21vh;
@@ -263,8 +263,9 @@ fieldset, img {
 
 #content3 {
   @include sections;
+  height: 90vh;
   .photo {
-    background: url("../images/servicios-1.jpg") no-repeat center center fixed;
+    background: url("../images/servicios-1.jpg") no-repeat center center;
       position: relative;
       overflow: hidden;
       top: 21vh;
@@ -298,16 +299,42 @@ footer {
 
 // Extra small devices (portrait phones, less than 576px)
 @media (max-width: 575.98px) {
-
+  #content1, #content21 {
+      height: 110vh;
+  }
+  #content21, #content22, #content23, #content24, #content3 {
+      height: 100vh;
+  }
 }
 
 // Small devices (landscape phones, less than 768px)
 @media (max-width: 767.98px) {
-
+  #content1, #content21 {
+      height: 120vh;
+  }
+  #content22, #content23, #content24, #content3 {
+      height: 110vh;
+  }
 }
 
 // Medium devices (tablets, less than 992px)
 @media (max-width: 991.98px) {
+  #content1, #content21 {
+      height: 130vh;
+      .arti {
+        padding-left: 1.35rem;
+        padding-right: 1.35rem;
+      }
+  }
+  #content21, #content22, #content23, #content24, #content3 {
+      height: 125vh;
+      .arti {
+        padding-left: 1.35rem;
+        padding-right: 1.35rem;
+      }
+  }
+
+
   .arti {
     font-size: 30px;
   }

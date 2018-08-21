@@ -349,6 +349,9 @@ footer {
 @media (max-width: 575.98px) {
   #content1, #content21, #content22, #content23, #content24, #content3 {
       height: 130vh;
+      .arti {
+        font-size: 12px;
+      }
   }
 }
 
@@ -357,7 +360,7 @@ footer {
   #content1, #content21, #content22, #content23, #content24, #content3 {
       height: 125vh;
       .arti {
-        font-size: 17px;
+        font-size: 15px;
       }
   }
 }
@@ -369,6 +372,7 @@ footer {
       .arti {
         padding-left: 1.35rem;
         padding-right: 1.35rem;
+        font-size: 17px;
       }
   }
   #logo {

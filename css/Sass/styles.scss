@@ -345,26 +345,6 @@ footer {
   text-align: center;
 }
 
-// Extra small devices (portrait phones, less than 576px)
-@media (max-width: 575.98px) {
-  #content1, #content21, #content22, #content23, #content24, #content3 {
-      height: 130vh;
-      .arti {
-        font-size: 12px;
-      }
-  }
-}
-
-// Small devices (landscape phones, less than 768px)
-@media (max-width: 767.98px) {
-  #content1, #content21, #content22, #content23, #content24, #content3 {
-      height: 125vh;
-      .arti {
-        font-size: 15px;
-      }
-  }
-}
-
 // Medium devices (tablets, less than 992px)
 @media (max-width: 991.98px) {
   #content1, #content21, #content22, #content23, #content24, #content3 {
@@ -392,6 +372,22 @@ footer {
   }
 }
 
-p {
+// Small devices (landscape phones, less than 768px)
+@media (max-width: 767.98px) {
+  #content1, #content21, #content22, #content23, #content24, #content3 {
+      height: 125vh;
+      .arti {
+        font-size: 15px;
+      }
+  }
+}
 
+// Extra small devices (portrait phones, less than 576px)
+@media (max-width: 575.98px) {
+  #content1, #content21, #content22, #content23, #content24, #content3 {
+      height: 150vh;
+      .arti {
+        font-size: 12px;
+      }
+  }
 }

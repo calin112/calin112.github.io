@@ -75,7 +75,7 @@ function initMap() {
   var lumarc = {lat: 41.067318, lng: 1.057415};
   // The map, centered at lumarc
   var map = new google.maps.Map(
-      document.getElementById('map'), {zoom: 19, center: lumarc});
+      document.getElementById('map'), {zoom: 18, center: lumarc});
   // The marker, positioned at lumarc
   var marker = new google.maps.Marker({position: lumarc, map: map});
 }

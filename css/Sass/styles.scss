@@ -267,29 +267,65 @@ fieldset, img {
   @include sections;
   height: 90vh;
   .photo {
-    background: url("../images/servicios-1.jpg") no-repeat center center;
+    background: url("../images/servicios-1.jpg") no-repeat bottom center;
       position: relative;
       overflow: hidden;
       top: 21vh;
-      height: 50vh;
+      height: 55vh;
       background-size: cover;
   }
 }
 
-#map {
-  position: relative;
-  width: 100%;
-  height: 49vh;
-}
-
 #content4 {
   @include sections;
-  #map {
-      position: relative;
-      overflow: hidden;
-      top: 21vh;
-      height: 50vh;
-      background-size: cover;
+  width: 100%;
+  .arti2 {
+    padding-top: 5vh;
+    position: relative;
+    color: black;
+  }
+  .row {
+      display: -ms-flexbox; /* IE10 */
+      display: flex;
+      -ms-flex-wrap: wrap; /* IE10 */
+      flex-wrap: wrap;
+      padding: 0 4px;
+      padding-top: 140px;
+      padding-bottom: 70px;
+      height: 800px;
+  }
+
+  /* Create two equal columns that sits next to each other */
+  .column {
+      -ms-flex: 50%; /* IE10 */
+      flex: 50%;
+      max-width: 50%;
+      padding: 0 4px;
+      #map, p {
+        margin-top: 8px;
+        margin-bottom: 8px;
+        vertical-align: middle;
+        width: 100%;
+        height: 100%;
+      }
+      p {
+        padding-top: 0;
+        margin-top: 0;
+      }
+  }
+  /* Responsive layout - makes a one column-layout instead of two columns */
+  @media screen and (max-width: 800px) {
+      .column {
+          -ms-flex: 100%;
+          flex: 100%;
+          max-width: 100%;
+      }
+      #column1 {
+          height: 200px;
+      }
+       #column2 {
+          height: 360px;
+      }
   }
 }
 

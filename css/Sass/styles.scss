@@ -15,7 +15,7 @@
   }
   .arti {
     position: relative;
-    font-size: 20px;
+    font-size: 18px;
     color: black;
     top: 25vh;
   }
@@ -134,7 +134,7 @@ fieldset, img {
 
 #content1 {
   @include sections;
-  height: 100vh;
+  height: 115vh;
   .photo {
     background: url("../images/principal-3.jpg") no-repeat center center;
       position: relative;
@@ -217,7 +217,7 @@ fieldset, img {
 
 #content21 {
   @include sections;
-  height: 100vh;
+  height: 115vh;
   .photo {
     background: url("../images/marcos-1.jpg") no-repeat top center;
       position: relative;
@@ -230,7 +230,7 @@ fieldset, img {
 
 #content22 {
   @include sections;
-  height: 100vh;
+  height: 115vh;
   .photo {
     background: url("../images/espejos.jpg") no-repeat center center;
       position: relative;
@@ -243,7 +243,7 @@ fieldset, img {
 
 #content23 {
   @include sections;
-  height: 100vh;
+  height: 115vh;
   .photo {
     background: url("../images/escaparate-2.jpg") no-repeat center center;
       position: relative;
@@ -256,7 +256,7 @@ fieldset, img {
 
 #content24 {
   @include sections;
-  height: 100vh;
+  height: 115vh;
   .photo {
     background: url("../images/tienda-2.jpg") no-repeat center center;
       position: relative;
@@ -269,7 +269,7 @@ fieldset, img {
 
 #content3 {
   @include sections;
-  height: 100vh;
+  height: 115vh;
   .photo {
     background: url("../images/servicios-1.jpg") no-repeat bottom center;
       position: relative;

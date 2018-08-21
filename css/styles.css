@@ -16,6 +16,9 @@
 #logo {
   height: 28px; }
 
+#texto {
+  font-size: 100px; }
+
 body {
   font-family: 'Montserrat', sans-serif;
   background-color: white;
@@ -116,7 +119,7 @@ fieldset, img {
     font-weight: bold; }
   #content1 .arti {
     position: relative;
-    font-size: 2.2vh;
+    font-size: 20px;
     color: black;
     top: 25vh; }
   #content1 .photo {
@@ -143,7 +146,7 @@ fieldset, img {
     font-weight: bold; }
   #content11 .arti {
     position: relative;
-    font-size: 2.2vh;
+    font-size: 20px;
     color: black;
     top: 25vh; }
   #content11 .row {
@@ -199,7 +202,7 @@ fieldset, img {
     font-weight: bold; }
   #content12 .arti {
     position: relative;
-    font-size: 2.2vh;
+    font-size: 20px;
     color: black;
     top: 25vh; }
   #content12 .instaimg img {
@@ -231,7 +234,7 @@ fieldset, img {
     font-weight: bold; }
   #content21 .arti {
     position: relative;
-    font-size: 2.2vh;
+    font-size: 20px;
     color: black;
     top: 25vh; }
   #content21 .photo {
@@ -247,7 +250,7 @@ fieldset, img {
   overflow: hidden;
   display: inline-block;
   background-size: cover;
-  height: 90vh; }
+  height: 100vh; }
   #content22 #titulo {
     position: absolute;
     top: 9vh;
@@ -256,7 +259,7 @@ fieldset, img {
     font-weight: bold; }
   #content22 .arti {
     position: relative;
-    font-size: 2.2vh;
+    font-size: 20px;
     color: black;
     top: 25vh; }
   #content22 .photo {
@@ -272,7 +275,7 @@ fieldset, img {
   overflow: hidden;
   display: inline-block;
   background-size: cover;
-  height: 90vh; }
+  height: 100vh; }
   #content23 #titulo {
     position: absolute;
     top: 9vh;
@@ -281,7 +284,7 @@ fieldset, img {
     font-weight: bold; }
   #content23 .arti {
     position: relative;
-    font-size: 2.2vh;
+    font-size: 20px;
     color: black;
     top: 25vh; }
   #content23 .photo {
@@ -297,7 +300,7 @@ fieldset, img {
   overflow: hidden;
   display: inline-block;
   background-size: cover;
-  height: 90vh; }
+  height: 100vh; }
   #content24 #titulo {
     position: absolute;
     top: 9vh;
@@ -306,7 +309,7 @@ fieldset, img {
     font-weight: bold; }
   #content24 .arti {
     position: relative;
-    font-size: 2.2vh;
+    font-size: 20px;
     color: black;
     top: 25vh; }
   #content24 .photo {
@@ -322,7 +325,7 @@ fieldset, img {
   overflow: hidden;
   display: inline-block;
   background-size: cover;
-  height: 90vh; }
+  height: 100vh; }
   #content3 #titulo {
     position: absolute;
     top: 9vh;
@@ -331,7 +334,7 @@ fieldset, img {
     font-weight: bold; }
   #content3 .arti {
     position: relative;
-    font-size: 2.2vh;
+    font-size: 20px;
     color: black;
     top: 25vh; }
   #content3 .photo {
@@ -358,7 +361,7 @@ fieldset, img {
     font-weight: bold; }
   #content4 .arti {
     position: relative;
-    font-size: 2.2vh;
+    font-size: 20px;
     color: black;
     top: 25vh; }
   #content4 .arti2 {
@@ -394,15 +397,21 @@ fieldset, img {
       padding-top: 0;
       margin-top: 0; }
   @media screen and (max-width: 800px) {
-    #content4 .column {
-      -ms-flex: 100%;
-      -webkit-box-flex: 100%;
-      flex: 100%;
-      max-width: 100%; }
-    #content4 #column1 {
-      height: 200px; }
-    #content4 #column2 {
-      height: 360px; } }
+    #content4 {
+      padding-left: 8px; }
+      #content4 .row {
+        padding-top: 100px;
+        height: 1100px;
+        font-size: 15px; }
+      #content4 .column {
+        -ms-flex: 100%;
+        -webkit-box-flex: 100%;
+        flex: 100%;
+        max-width: 100%; }
+      #content4 #column1 {
+        height: 200px; }
+      #content4 #column2 {
+        height: 360px; } }
 
 footer {
   height: 10vh;
@@ -410,30 +419,21 @@ footer {
   text-align: center; }
 
 @media (max-width: 575.98px) {
-  #content1, #content21 {
-    height: 110vh; }
-  #content21, #content22, #content23, #content24, #content3 {
-    height: 100vh; } }
+  #content1, #content21, #content22, #content23, #content24, #content3 {
+    height: 130vh; } }
 
 @media (max-width: 767.98px) {
-  #content1, #content21 {
-    height: 120vh; }
-  #content22, #content23, #content24, #content3 {
-    height: 110vh; } }
+  #content1, #content21, #content22, #content23, #content24, #content3 {
+    height: 125vh; }
+    #content1 .arti, #content21 .arti, #content22 .arti, #content23 .arti, #content24 .arti, #content3 .arti {
+      font-size: 17px; } }
 
 @media (max-width: 991.98px) {
-  #content1, #content21 {
-    height: 130vh; }
-    #content1 .arti, #content21 .arti {
+  #content1, #content21, #content22, #content23, #content24, #content3 {
+    height: 115vh; }
+    #content1 .arti, #content21 .arti, #content22 .arti, #content23 .arti, #content24 .arti, #content3 .arti {
       padding-left: 1.35rem;
       padding-right: 1.35rem; }
-  #content21, #content22, #content23, #content24, #content3 {
-    height: 125vh; }
-    #content21 .arti, #content22 .arti, #content23 .arti, #content24 .arti, #content3 .arti {
-      padding-left: 1.35rem;
-      padding-right: 1.35rem; }
-  .arti {
-    font-size: 30px; }
   #logo {
     height: 23px; }
   .pl-5 {

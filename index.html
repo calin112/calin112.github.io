@@ -4,6 +4,7 @@
     <title>Lumarc</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/swiper.min.css">
     <script src="js/jquery.js"></script>
     <script src="bootstrap/js/bootstrap.min.js"></script>
     <link rel="stylesheet" href="css/prebootstrap.css">
@@ -11,11 +12,24 @@
     <link rel="stylesheet" href="css/magnific.css">
     <link rel="stylesheet" href="css/styles.css">
     <link rel="stylesheet" href="css/animate.css">
-    <link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
     <script src="./js/instafeed.min.js"></script>
     <script src="js/magnific.min.js"></script>
     <script src="js/main.js"></script>
     <link href="images/logo-black-icon.png" rel="shortcut icon">
+    <style>
+        .swiper-container {
+          width: 100%;
+          padding-top: 300px;
+          padding-bottom: 50px;
+          position: center;
+        }
+        .swiper-slide {
+          background-position: center;
+          background-size: cover;
+          width: 300px;
+          height: 300px;
+        }
+      </style>
   </head>
   <body data-spy="scroll" data-target=".navbar" data-offset="50">
       <nav id="myNavbar" class="navbar navbar-expand-md navbar-dark bg-dark fixed-top bg-faded">
@@ -120,6 +134,45 @@
         <div class="photo"></div>
         <p class="arti">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
       </div>
+      <!-- Swiper -->
+        <div class="swiper-container">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide" style="background-color:#27292b;)"></div> <!--Negro carbón-->
+            <div class="swiper-slide" style="background-color:#52595d;)"></div> <!--Gris hierro-->
+            <div class="swiper-slide" style="background-color:#5b686d;)"></div> <!--Gris Azulado-->
+            <div class="swiper-slide" style="background-color:#4a3526;)"></div> <!--Sepia-->
+            <div class="swiper-slide" style="background-color:#766a5e;)"></div> <!--Gris beige-->
+            <div class="swiper-slide" style="background-color:#e6d2b5;)"></div> <!--Marfil claro-->
+            <div class="swiper-slide" style="background-color:#114232;)"></div> <!--Verde musgo-->
+            <div class="swiper-slide" style="background-color:red;)"></div>
+            <div class="swiper-slide" style="background-color:red;)"></div>
+            <div class="swiper-slide" style="background-color:red;)"></div>
+          </div>
+          <!-- Add Pagination -->
+          <div class="swiper-pagination"></div>
+        </div>
+        <!-- Swiper JS -->
+        <script src="js/swiper.min.js"></script>
+
+  <!-- Initialize Swiper -->
+  <script>
+    var swiper = new Swiper('.swiper-container', {
+      effect: 'coverflow',
+      grabCursor: true,
+      centeredSlides: true,
+      slidesPerView: 'auto',
+      coverflowEffect: {
+        rotate: 50,
+        stretch: 0,
+        depth: 100,
+        modifier: 1,
+        slideShadows : true,
+      },
+      pagination: {
+        el: '.swiper-pagination',
+      },
+    });
+  </script>
       <div id="content24">
         <h1 id="titulo">Persianas</h1>
         <div class="photo"></div>
@@ -138,5 +191,6 @@
       <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCtlEVbXTCyt11CEYuti_zCpYi3_lV-aXY&callback=initMap"
     async defer></script>
       <footer> Lumarc todos los derechos reservados </footer>
+      
   </body>
 </html>

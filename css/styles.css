@@ -295,6 +295,15 @@ fieldset, img {
     height: 50vh;
     background-size: cover; }
 
+.swiper-container p {
+  color: white;
+  bottom: 0;
+  margin-bottom: 0; }
+
+.swiper-container strong {
+  color: white;
+  bottom: 0; }
+
 #content24 {
   position: relative;
   overflow: hidden;
@@ -396,6 +405,9 @@ fieldset, img {
     #content4 .column p {
       padding-top: 0;
       margin-top: 0; }
+    #content4 .column .negrita {
+      color: black;
+      font-weight: 700; }
   @media screen and (max-width: 800px) {
     #content4 {
       padding-left: 8px; }

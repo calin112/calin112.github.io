@@ -199,7 +199,7 @@ fieldset, img {
 }
 
 #content12 {
-  @include sections;  
+  @include sections;
   .instaimg img {
     margin-bottom:30px;
     transition: .3s;
@@ -251,6 +251,19 @@ fieldset, img {
       top: 21vh;
       height: 50vh;
       background-size: cover;
+  }
+
+}
+
+.swiper-container {
+  p {
+    color: white;
+    bottom: 0;
+    margin-bottom: 0;
+  }
+  strong {
+    color: white;
+    bottom: 0;
   }
 }
 
@@ -315,6 +328,10 @@ fieldset, img {
       p {
         padding-top: 0;
         margin-top: 0;
+      }
+      .negrita {
+        color: black;
+        font-weight: 700;
       }
   }
   /* Responsive layout - makes a one column-layout instead of two columns */

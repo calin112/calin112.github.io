@@ -14,19 +14,22 @@
     <script src="./js/instafeed.min.js"></script>
     <script src="js/magnific.min.js"></script>
     <script src="js/main.js"></script>
-    <link href="images/logo-black-icon.png" rel="shortcut icon">
     <style>
         .swiper-container {
           width: 100%;
           padding-top: 50px;
           padding-bottom: 50px;
           position: center;
+
         }
         .swiper-slide {
           background-position: center;
           background-size: cover;
           width: 300px;
           height: 300px;
+          display: flex;
+          align-items: flex-end;
+          justify-content: center;
         }
       </style>
   </head>
@@ -73,7 +76,6 @@
         <div class="backPhoto"></div>
         <img class="title" src="images/logo-white.png" /></a>
         <h2 class="subtitle">A su servicio desde 1988</h2>
-        <a href="#content1"><img id="down" src="images/arrow-black.png"></img></a>
       </div>
       <div id="content1">
         <h1 id="titulo" class="ml-5 mr-5">Sobre Nosotros</h1>
@@ -136,16 +138,16 @@
       <!-- Swiper -->
         <div class="swiper-container">
           <div class="swiper-wrapper">
-            <div class="swiper-slide" style="background-color:#27292b;)"></div> <!--Negro carbón-->
-            <div class="swiper-slide" style="background-color:#52595d;)"></div> <!--Gris hierro-->
-            <div class="swiper-slide" style="background-color:#5b686d;)"></div> <!--Gris Azulado-->
-            <div class="swiper-slide" style="background-color:#4a3526;)"></div> <!--Sepia-->
-            <div class="swiper-slide" style="background-color:#766a5e;)"></div> <!--Gris beige-->
-            <div class="swiper-slide" style="background-color:#e6d2b5;)"></div> <!--Marfil claro-->
-            <div class="swiper-slide" style="background-color:#114232;)"></div> <!--Verde musgo-->
-            <div class="swiper-slide" style="background-color:red;)"></div>
-            <div class="swiper-slide" style="background-color:red;)"></div>
-            <div class="swiper-slide" style="background-color:red;)"></div>
+            <div class="swiper-slide" style="background-color:#27292b;)"><p><strong id="aluminio">Negro carbón - </strong>RAL 9011</p></div> <!--Negro carbón-->
+            <div class="swiper-slide" style="background-color:#52595d;)"><p><strong id="aluminio">Gris hierro - </strong>RAL 7011</p></div> <!--Gris hierro-->
+            <div class="swiper-slide" style="background-color:#5b686d;)"><p><strong id="aluminio">Gris Azulado - </strong>RAL 7031</p></div> <!--Gris Azulado-->
+            <div class="swiper-slide" style="background-color:#4a3526;)"><p><strong id="aluminio">Sepia - </strong>RAL 8014</p></div> <!--Sepia-->
+            <div class="swiper-slide" style="background-color:#e6d2b5;)"><p><strong id="aluminio">Marfil claro - </strong>RAL 1015</p></div> <!--Marfil claro-->
+            <div class="swiper-slide" style="background-color:#766a5e;)"><p><strong id="aluminio">Gris beige - </strong>RAL 7006</p></div> <!--Gris beige-->
+            <div class="swiper-slide" style="background-color:#114232;)"><p><strong id="aluminio">Verde musgo - </strong>RAL 6005</p></div> <!--Verde musgo-->
+            <div class="swiper-slide" style="background-color:#89693e;)"><p><strong id="aluminio">Pardo verdoso - </strong>RAL 8000</p></div> <!--Pardo verdoso-->
+            <div class="swiper-slide" style="background-color:#a45729;)"><p><strong id="aluminio">Pardo anaranjado - </strong>RAL 8023</p></div> <!--Pardo anaranjado-->
+            <div class="swiper-slide" style="background-color:#5e2f26;)"><p><strong id="aluminio">Castaño - </strong>RAL 8015</p></div> <!--Castaño-->
           </div>
           <!-- Add Pagination -->
           <div class="swiper-pagination"></div>
@@ -186,19 +188,19 @@
         <h1 id="titulo" class="ml-5 mr-5">Contacto</h1>
         <div class="row ml-5 mr-5">
           <div class="column" id="column1">
-            <div class="arti2">
-              <strong>Dirección</strong>
+            <div class="arti2 pl-5 pr-5">
+              <p class="negrita">Dirección:</p>
               <p>Plaça de la Constitució, 8</p>
               <p>43850 Cambrils, Tarragona</p>
               <br>
-              <p><b>e-mail:</b> info@lumarc.es</p>
-              <p><b>Teléfono</b> 977 36 59 21</p>
+              <p class="negrita">e-mail: </p> <p>info@lumarc.es</p><br>
+              <p class="negrita">Teléfono: </p> <p>977 36 59 21</p>
               <br>
-              <strong>Horario:</strong>
+              <p class="negrita">Horario:</p>
               <p>Lunes a viernes: <i>9:00-13:00 y 16:00-20:00</i></p>
               <p>Sábado: <i>9:00-13:00</i></p>
               <br>
-              <strong>Horario de agosto:</strong>
+              <p class="negrita">Horario de agosto:</p>
               <p>Lunes a sábado: <i>9:00-13:00</i></p>
             </div>
           </div>
@@ -206,12 +208,12 @@
             <div id="map"></div>
           </div>
         </div>
-       
-        
-      </div>  
+
+
+      </div>
       <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCtlEVbXTCyt11CEYuti_zCpYi3_lV-aXY&callback=initMap"
     async defer></script>
       <footer class="page-footer font-small bg-dark darken-3"> Lumarc todos los derechos reservados </footer>
-      
+
   </body>
 </html>

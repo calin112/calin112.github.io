@@ -392,26 +392,6 @@ footer {
   }
 }
 
-// Small devices (landscape phones, less than 768px)
-@media (max-width: 767.98px) {
-  #content1, #content21, #content22, #content23, #content24, #content3 {
-      height: 125vh;
-      .arti {
-        font-size: 15px;
-      }
-  }
-}
-
-// Extra small devices (portrait phones, less than 576px)
-@media (max-width: 575.98px) {
-  #content1, #content21, #content22, #content23, #content24, #content3 {
-      height: 150vh;
-      .arti {
-        font-size: 15px;
-      }
-  }
-}
-
 .redes {
   padding-top: 20px;
   padding-right: 3rem;
@@ -433,5 +413,39 @@ footer {
   }
   a {
     color: white;
+  }
+}
+
+// Small devices (landscape phones, less than 768px)
+@media (max-width: 767.98px) {
+  #content1, #content21, #content22, #content23, #content24, #content3 {
+      height: 125vh;
+      .arti {
+        font-size: 15px;
+      }
+  }
+}
+
+// Extra small devices (portrait phones, less than 576px)
+@media (max-width: 575.98px) {
+  #content1, #content21, #content22, #content23, #content24, #content3 {
+      height: 150vh;
+      .arti {
+        font-size: 15px;
+      }
+  }
+  .redes {
+    padding-top: 20px;
+    padding-right: 2rem;
+    i {
+      font-size: 20px;
+      padding-right: 0.3em;
+    }
+  }
+  .pie {
+    .lumarc {
+      padding-top: 20px;
+      padding-left: 2rem;
+    }
   }
 }

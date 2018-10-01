@@ -87,10 +87,10 @@ $(document).ready(function() {
 
     var userFeed = new Instafeed({
         get: 'user',
-        userId: '988779762',
+        userId: '8614611355',
         limit: 8,
         resolution: 'standard_resolution',
-        accessToken: '988779762.1677ed0.f57b0797fbf4439985131c7de563cbd5',
+        accessToken: '8614611355.1677ed0.ceda1550782e45e0b801ebf66d00b02f',
         sortBy: 'most-recent',
         template: '<div class="col-lg-3 instaimg"><a href="{{image}}" title="{{caption}}" target="_blank"><img src="{{image}}" alt="{{caption}}" class="img-fluid"/></a></div>',
     });
@@ -98,7 +98,7 @@ $(document).ready(function() {
 
     userFeed.run();
 
-    
+
     // This will create a single gallery from all elements that have class "gallery-item"
     $('.gallery').magnificPopup({
         type: 'image',

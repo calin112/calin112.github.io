@@ -408,3 +408,27 @@ footer {
       }
   }
 }
+
+.redes {
+  padding-top: 20px;
+  padding-right: 3rem;
+  i {
+    font-size: 20px;
+    padding-right: 0.3em;
+  }
+}
+
+.pie {
+  height: 50px;
+  font-size: 13px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  .lumarc {
+    padding-top: 20px;
+    padding-left: 3rem;
+  }
+  a {
+    color: white;
+  }
+}

@@ -459,3 +459,28 @@ footer {
     height: 150vh; }
     #content1 .arti, #content21 .arti, #content22 .arti, #content23 .arti, #content24 .arti, #content3 .arti {
       font-size: 15px; } }
+
+.redes {
+  padding-top: 20px;
+  padding-right: 3rem; }
+  .redes i {
+    font-size: 20px;
+    padding-right: 0.3em; }
+
+.pie {
+  height: 50px;
+  font-size: 13px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between; }
+  .pie .lumarc {
+    padding-top: 20px;
+    padding-left: 3rem; }
+  .pie a {
+    color: white; }

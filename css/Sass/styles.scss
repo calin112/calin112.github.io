@@ -347,8 +347,11 @@ fieldset, img {
           flex: 100%;
           max-width: 100%;
       }
+      #map {
+        bottom: 0px;
+      }
       #column1 {
-          height: 200px;
+          height: 600px;
       }
        #column2 {
           height: 360px;

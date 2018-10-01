@@ -420,8 +420,10 @@ fieldset, img {
         -webkit-box-flex: 100%;
         flex: 100%;
         max-width: 100%; }
+      #content4 #map {
+        bottom: 0px; }
       #content4 #column1 {
-        height: 200px; }
+        height: 600px; }
       #content4 #column2 {
         height: 360px; } }
 

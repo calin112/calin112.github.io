@@ -333,6 +333,18 @@ fieldset, img {
         color: black;
         font-weight: 700;
       }
+      #inst {
+        color: #8a3ab9;
+      }
+      #fb {
+        color: #3b5998;
+      }
+      #li {
+        color: #0077BB;
+      }
+      .fab {
+        font-size: 30px;
+      }
   }
   /* Responsive layout - makes a one column-layout instead of two columns */
   @media screen and (max-width: 800px) {

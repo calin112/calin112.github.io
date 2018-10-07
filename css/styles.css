@@ -408,6 +408,14 @@ fieldset, img {
     #content4 .column .negrita {
       color: black;
       font-weight: 700; }
+    #content4 .column #inst {
+      color: #8a3ab9; }
+    #content4 .column #fb {
+      color: #3b5998; }
+    #content4 .column #li {
+      color: #0077BB; }
+    #content4 .column .fab {
+      font-size: 30px; }
   @media screen and (max-width: 800px) {
     #content4 {
       padding-left: 8px; }

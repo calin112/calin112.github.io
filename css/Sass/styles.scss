@@ -6,6 +6,7 @@
   overflow: hidden;
   display: inline-block;
   background-size: cover;
+  width: 100%;
   #titulo {
     position: absolute;
     top: 9vh;
@@ -271,7 +272,8 @@ fieldset, img {
   @include sections;
   height: 115vh;
   .photo {
-    background: url("../images/tienda-2.jpg") no-repeat center center;
+    background: url("../images/tienda-2-2.jpg") no-repeat center center;
+    margin: 0 auto;
       position: relative;
       overflow: hidden;
       top: 21vh;
@@ -343,7 +345,7 @@ fieldset, img {
         color: #0077BB;
       }
       .fab {
-        font-size: 30px;
+        font-size: 40px;
       }
   }
   /* Responsive layout - makes a one column-layout instead of two columns */

@@ -110,6 +110,7 @@ fieldset, img {
   overflow: hidden;
   display: inline-block;
   background-size: cover;
+  width: 100%;
   height: 115vh; }
   #content1 #titulo {
     position: absolute;
@@ -135,6 +136,7 @@ fieldset, img {
   overflow: hidden;
   display: inline-block;
   background-size: cover;
+  width: 100%;
   /* Create four equal columns that sits next to each other */
   /* Responsive layout - makes a two column-layout instead of four columns */
   /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */ }
@@ -193,7 +195,8 @@ fieldset, img {
   position: relative;
   overflow: hidden;
   display: inline-block;
-  background-size: cover; }
+  background-size: cover;
+  width: 100%; }
   #content12 #titulo {
     position: absolute;
     top: 9vh;
@@ -225,6 +228,7 @@ fieldset, img {
   overflow: hidden;
   display: inline-block;
   background-size: cover;
+  width: 100%;
   height: 115vh; }
   #content21 #titulo {
     position: absolute;
@@ -250,6 +254,7 @@ fieldset, img {
   overflow: hidden;
   display: inline-block;
   background-size: cover;
+  width: 100%;
   height: 115vh; }
   #content22 #titulo {
     position: absolute;
@@ -275,6 +280,7 @@ fieldset, img {
   overflow: hidden;
   display: inline-block;
   background-size: cover;
+  width: 100%;
   height: 115vh; }
   #content23 #titulo {
     position: absolute;
@@ -309,6 +315,7 @@ fieldset, img {
   overflow: hidden;
   display: inline-block;
   background-size: cover;
+  width: 100%;
   height: 115vh; }
   #content24 #titulo {
     position: absolute;
@@ -322,7 +329,8 @@ fieldset, img {
     color: black;
     top: 25vh; }
   #content24 .photo {
-    background: url("../images/tienda-2.jpg") no-repeat center center;
+    background: url("../images/tienda-2-2.jpg") no-repeat center center;
+    margin: 0 auto;
     position: relative;
     overflow: hidden;
     top: 21vh;
@@ -334,6 +342,7 @@ fieldset, img {
   overflow: hidden;
   display: inline-block;
   background-size: cover;
+  width: 100%;
   height: 115vh; }
   #content3 #titulo {
     position: absolute;
@@ -359,6 +368,7 @@ fieldset, img {
   overflow: hidden;
   display: inline-block;
   background-size: cover;
+  width: 100%;
   width: 100%;
   /* Create two equal columns that sits next to each other */
   /* Responsive layout - makes a one column-layout instead of two columns */ }
@@ -415,7 +425,7 @@ fieldset, img {
     #content4 .column #li {
       color: #0077BB; }
     #content4 .column .fab {
-      font-size: 30px; }
+      font-size: 40px; }
   @media screen and (max-width: 800px) {
     #content4 {
       padding-left: 8px; }

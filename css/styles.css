@@ -452,7 +452,7 @@ footer {
 
 @media (max-width: 991.98px) {
   #content1, #content21, #content22, #content23, #content24, #content3 {
-    height: 115vh; }
+    height: 105vh; }
     #content1 .arti, #content21 .arti, #content22 .arti, #content23 .arti, #content24 .arti, #content3 .arti {
       padding-left: 1.35rem;
       padding-right: 1.35rem;
@@ -500,6 +500,8 @@ footer {
       font-size: 15px; } }
 
 @media (max-width: 575.98px) {
+  #content1 {
+    height: 160vh; }
   #content1, #content21, #content22, #content23, #content24, #content3 {
     height: 150vh; }
     #content1 .arti, #content21 .arti, #content22 .arti, #content23 .arti, #content24 .arti, #content3 .arti {

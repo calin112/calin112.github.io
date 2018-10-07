@@ -149,16 +149,13 @@ fieldset, img {
 
 #content11 {
   @include sections;
-  #titulo {
-    top: 8vh;
-  }
   .row {
       display: -ms-flexbox; /* IE10 */
       display: flex;
       -ms-flex-wrap: wrap; /* IE10 */
       flex-wrap: wrap;
       padding: 0 4px;
-      padding-top: 160px;
+      padding-top: 200px;
   }
 
   /* Create four equal columns that sits next to each other */

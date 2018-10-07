@@ -151,8 +151,6 @@ fieldset, img {
     font-size: 18px;
     color: black;
     top: 25vh; }
-  #content11 #titulo {
-    top: 8vh; }
   #content11 .row {
     display: -ms-flexbox;
     /* IE10 */
@@ -162,7 +160,7 @@ fieldset, img {
     /* IE10 */
     flex-wrap: wrap;
     padding: 0 4px;
-    padding-top: 160px; }
+    padding-top: 200px; }
   #content11 .column {
     -ms-flex: 25%;
     /* IE10 */

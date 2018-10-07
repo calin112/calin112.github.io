@@ -442,13 +442,27 @@ footer {
 
 // Extra small devices (portrait phones, less than 576px)
 @media (max-width: 575.98px) {
+  #content1, #content21, #content22, #content23, #content24, #content3 {
+    //.arti {
+      //font-size: 15px;
+    //}
+  }
   #content1 {
     height: 155vh;
   }
   #content22 {
-    height: 120vh;
+    height: 115vh;
   }
-  #content21, #content23, #content24, #content3 {
+  #content23 {
+    height: 135vh;
+  }
+  #content24 {
+    height: 130vh;
+  }
+  #content3 {
+    height: 125vh;
+  }
+  #content21 {
       height: 150vh;
       .arti {
         font-size: 15px;

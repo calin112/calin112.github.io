@@ -152,6 +152,7 @@ fieldset, img {
     color: black;
     top: 25vh; }
   #content11 .row {
+    top: 1vh;
     display: -ms-flexbox;
     /* IE10 */
     display: -webkit-box;

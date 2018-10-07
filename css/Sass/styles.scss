@@ -150,6 +150,7 @@ fieldset, img {
 #content11 {
   @include sections;
   .row {
+      top: 1vh;
       display: -ms-flexbox; /* IE10 */
       display: flex;
       -ms-flex-wrap: wrap; /* IE10 */

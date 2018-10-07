@@ -433,7 +433,7 @@ footer {
 // Small devices (landscape phones, less than 768px)
 @media (max-width: 767.98px) {
   #content1, #content21, #content22, #content23, #content24, #content3 {
-      height: 250vh;
+      height: 125vh;
       .arti {
         font-size: 15px;
       }
@@ -443,9 +443,9 @@ footer {
 // Extra small devices (portrait phones, less than 576px)
 @media (max-width: 575.98px) {
   #content1 {
-    height: 250vh;
+    height: 160vh;
   }
-  #content21, #content22, #content23, #content24, #content3 {
+  #content1, #content21, #content22, #content23, #content24, #content3 {
       height: 150vh;
       .arti {
         font-size: 15px;

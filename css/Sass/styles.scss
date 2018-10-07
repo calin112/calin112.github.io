@@ -16,7 +16,7 @@
   }
   .arti {
     position: relative;
-    font-size: 18px;
+    font-size: 2vh;
     color: black;
     top: 25vh;
   }
@@ -284,7 +284,7 @@ fieldset, img {
 
 #content3 {
   @include sections;
-  height: 95vh;
+  height: 100vh;
   .photo {
     background: url("../images/servicios-1.jpg") no-repeat bottom center;
       position: relative;
@@ -391,7 +391,7 @@ footer {
       .arti {
         padding-left: 1.35rem;
         padding-right: 1.35rem;
-        font-size: 17px;
+        font-size: 12vh;
       }
   }
   #logo {

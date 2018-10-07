@@ -218,7 +218,7 @@ fieldset, img {
 
 #content21 {
   @include sections;
-  height: 115vh;
+  height: 105vh;
   .photo {
     background: url("../images/marcos-1.jpg") no-repeat top center;
       position: relative;
@@ -231,7 +231,7 @@ fieldset, img {
 
 #content22 {
   @include sections;
-  height: 115vh;
+  height: 90vh;
   .photo {
     background: url("../images/espejos.jpg") no-repeat center center;
       position: relative;
@@ -244,7 +244,7 @@ fieldset, img {
 
 #content23 {
   @include sections;
-  height: 115vh;
+  height: 105vh;
   .photo {
     background: url("../images/escaparate-2.jpg") no-repeat center center;
       position: relative;
@@ -270,7 +270,7 @@ fieldset, img {
 
 #content24 {
   @include sections;
-  height: 115vh;
+  height: 95vh;
   .photo {
     background: url("../images/tienda-2.jpg") no-repeat center center;
     margin: 0 auto;
@@ -284,7 +284,7 @@ fieldset, img {
 
 #content3 {
   @include sections;
-  height: 115vh;
+  height: 95vh;
   .photo {
     background: url("../images/servicios-1.jpg") no-repeat bottom center;
       position: relative;
@@ -381,6 +381,11 @@ footer {
 
 // Medium devices (tablets, less than 992px)
 @media (max-width: 991.98px) {
+  #content0 {
+    .subtitle {
+      bottom: 15vh;
+    }
+  }
   #content1, #content21, #content22, #content23, #content24, #content3 {
       height: 105vh;
       .arti {
@@ -439,6 +444,16 @@ footer {
   }
   #content1 {
     height: 160vh;
+  }
+  #content11 {
+    .row {
+      padding-top: 100px;
+    }
+  }
+  #content12 {
+    .container-fluid {
+      padding-top: 100px;
+    }
   }
   #content21 {
     height: 185vh;

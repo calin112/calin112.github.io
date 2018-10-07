@@ -229,7 +229,7 @@ fieldset, img {
   display: inline-block;
   background-size: cover;
   width: 100%;
-  height: 115vh; }
+  height: 105vh; }
   #content21 #titulo {
     position: absolute;
     top: 9vh;
@@ -255,7 +255,7 @@ fieldset, img {
   display: inline-block;
   background-size: cover;
   width: 100%;
-  height: 115vh; }
+  height: 90vh; }
   #content22 #titulo {
     position: absolute;
     top: 9vh;
@@ -281,7 +281,7 @@ fieldset, img {
   display: inline-block;
   background-size: cover;
   width: 100%;
-  height: 115vh; }
+  height: 105vh; }
   #content23 #titulo {
     position: absolute;
     top: 9vh;
@@ -316,7 +316,7 @@ fieldset, img {
   display: inline-block;
   background-size: cover;
   width: 100%;
-  height: 115vh; }
+  height: 95vh; }
   #content24 #titulo {
     position: absolute;
     top: 9vh;
@@ -343,7 +343,7 @@ fieldset, img {
   display: inline-block;
   background-size: cover;
   width: 100%;
-  height: 115vh; }
+  height: 95vh; }
   #content3 #titulo {
     position: absolute;
     top: 9vh;
@@ -451,6 +451,8 @@ footer {
   text-align: center; }
 
 @media (max-width: 991.98px) {
+  #content0 .subtitle {
+    bottom: 15vh; }
   #content1, #content21, #content22, #content23, #content24, #content3 {
     height: 105vh; }
     #content1 .arti, #content21 .arti, #content22 .arti, #content23 .arti, #content24 .arti, #content3 .arti {
@@ -498,6 +500,10 @@ footer {
     font-size: 15px; }
   #content1 {
     height: 160vh; }
+  #content11 .row {
+    padding-top: 100px; }
+  #content12 .container-fluid {
+    padding-top: 100px; }
   #content21 {
     height: 185vh; }
   #content22 {

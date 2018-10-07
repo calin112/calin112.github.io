@@ -495,7 +495,7 @@ footer {
 
 @media (max-width: 767.98px) {
   #content1, #content21, #content22, #content23, #content24, #content3 {
-    height: 125vh; }
+    height: 250vh; }
     #content1 .arti, #content21 .arti, #content22 .arti, #content23 .arti, #content24 .arti, #content3 .arti {
       font-size: 15px; } }
 

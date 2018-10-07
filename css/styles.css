@@ -151,12 +151,13 @@ fieldset, img {
     font-size: 18px;
     color: black;
     top: 25vh; }
+  #content11 #titulo {
+    top: 8vh; }
   #content11 .row {
     display: -ms-flexbox;
     /* IE10 */
     display: -webkit-box;
     display: flex;
-    margin: 0 auto;
     -ms-flex-wrap: wrap;
     /* IE10 */
     flex-wrap: wrap;

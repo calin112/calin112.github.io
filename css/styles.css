@@ -50,7 +50,7 @@ fieldset, img {
     background: url("../images/tienda-1-1.jpg") no-repeat center top fixed;
     background-size: cover; }
   #content0 .title {
-    width: 30vw;
+    width: 450px;
     position: absolute;
     right: -80vh;
     bottom: 14vh;
@@ -61,7 +61,7 @@ fieldset, img {
     animation-delay: 3s;
     opacity: 1; }
   #content0 .subtitle {
-    width: 20vw;
+    width: 420px;
     font-size: 1.5vw;
     position: absolute;
     bottom: 10vh;
@@ -91,19 +91,20 @@ fieldset, img {
     animation-delay: 5s; }
   @media (max-width: 991.98px) {
     #content0 .title {
-      width: 32vw;
+      width: 300px;
       bottom: 22vh; }
     #content0 .subtitle {
-      font-size: 2vw;
-      width: 300px; } }
+      font-size: 18px;
+      width: 300px;
+      bottom: 17vh; } }
   @media (max-width: 767.98px) {
     #content0 .title {
       width: 300px;
       bottom: 22vh; }
     #content0 .subtitle {
       width: 300px;
-      font-size: 20px;
-      bottom: 16vh; } }
+      font-size: 16px;
+      bottom: 17vh; } }
 
 #content1 {
   position: relative;
@@ -116,7 +117,7 @@ fieldset, img {
     position: absolute;
     top: 9vh;
     color: black;
-    font-size: 7vh;
+    font-size: 60px;
     font-weight: bold; }
   #content1 .arti {
     position: relative;
@@ -144,7 +145,7 @@ fieldset, img {
     position: absolute;
     top: 9vh;
     color: black;
-    font-size: 7vh;
+    font-size: 60px;
     font-weight: bold; }
   #content11 .arti {
     position: relative;
@@ -201,7 +202,7 @@ fieldset, img {
     position: absolute;
     top: 9vh;
     color: black;
-    font-size: 7vh;
+    font-size: 60px;
     font-weight: bold; }
   #content12 .arti {
     position: relative;
@@ -234,7 +235,7 @@ fieldset, img {
     position: absolute;
     top: 9vh;
     color: black;
-    font-size: 7vh;
+    font-size: 60px;
     font-weight: bold; }
   #content21 .arti {
     position: relative;
@@ -260,7 +261,7 @@ fieldset, img {
     position: absolute;
     top: 9vh;
     color: black;
-    font-size: 7vh;
+    font-size: 60px;
     font-weight: bold; }
   #content22 .arti {
     position: relative;
@@ -286,7 +287,7 @@ fieldset, img {
     position: absolute;
     top: 9vh;
     color: black;
-    font-size: 7vh;
+    font-size: 60px;
     font-weight: bold; }
   #content23 .arti {
     position: relative;
@@ -321,7 +322,7 @@ fieldset, img {
     position: absolute;
     top: 9vh;
     color: black;
-    font-size: 7vh;
+    font-size: 60px;
     font-weight: bold; }
   #content24 .arti {
     position: relative;
@@ -348,7 +349,7 @@ fieldset, img {
     position: absolute;
     top: 9vh;
     color: black;
-    font-size: 7vh;
+    font-size: 60px;
     font-weight: bold; }
   #content3 .arti {
     position: relative;
@@ -376,7 +377,7 @@ fieldset, img {
     position: absolute;
     top: 9vh;
     color: black;
-    font-size: 7vh;
+    font-size: 60px;
     font-weight: bold; }
   #content4 .arti {
     position: relative;
@@ -451,14 +452,12 @@ footer {
   text-align: center; }
 
 @media (max-width: 991.98px) {
-  #content0 .subtitle {
-    bottom: 15vh; }
   #content1, #content21, #content22, #content23, #content24, #content3 {
     height: 105vh; }
     #content1 .arti, #content21 .arti, #content22 .arti, #content23 .arti, #content24 .arti, #content3 .arti {
       padding-left: 1.35rem;
       padding-right: 1.35rem;
-      font-size: 12vh; }
+      font-size: 16px; }
   #logo {
     height: 23px; }
   .pl-5 {
@@ -499,7 +498,7 @@ footer {
   #content1 .arti, #content21 .arti, #content22 .arti, #content23 .arti, #content24 .arti, #content3 .arti {
     font-size: 15px; }
   #content1 {
-    height: 170vh; }
+    height: 135vh; }
   #content11 .row {
     padding-top: 100px; }
   #content12 .container-fluid {
@@ -517,9 +516,9 @@ footer {
 
 @media (max-width: 575.98px) {
   #content1 .arti, #content21 .arti, #content22 .arti, #content23 .arti, #content24 .arti, #content3 .arti {
-    font-size: 15px; }
+    font-size: 14px; }
   #content1 {
-    height: 155vh; }
+    height: 780px; }
   #content22 {
     height: 115vh; }
   #content23 {

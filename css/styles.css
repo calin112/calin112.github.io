@@ -14,7 +14,7 @@
   animation-delay: 3s; }
 
 #logo {
-  height: 28px; }
+  height: 27px; }
 
 #texto {
   font-size: 100px; }
@@ -62,7 +62,7 @@ fieldset, img {
     opacity: 1; }
   #content0 .subtitle {
     width: 420px;
-    font-size: 1.5vw;
+    font-size: 20px;
     position: absolute;
     bottom: 10vh;
     right: -80vh;
@@ -458,8 +458,6 @@ footer {
       padding-left: 1.35rem;
       padding-right: 1.35rem;
       font-size: 16px; }
-  #logo {
-    height: 23px; }
   .pl-5 {
     padding-left: 0rem; }
   .ml-5 {
@@ -515,6 +513,8 @@ footer {
     height: 130vh; } }
 
 @media (max-width: 575.98px) {
+  #logo {
+    height: 25px; }
   #content1 .arti, #content21 .arti, #content22 .arti, #content23 .arti, #content24 .arti, #content3 .arti {
     font-size: 14px; }
   #content1 {

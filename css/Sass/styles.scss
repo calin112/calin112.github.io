@@ -16,9 +16,9 @@
   }
   .arti {
     position: relative;
-    font-size: 2vh;
+    font-size: 18px;
     color: black;
-    top: 25vh;
+    top: 200px;
   }
 }
 
@@ -135,20 +135,58 @@ fieldset, img {
 
 #content1 {
   @include sections;
-  height: 115vh;
+  height: 900px;
   .photo {
     background: url("../images/principal-3.jpg") no-repeat center center;
       position: relative;
       overflow: hidden;
-      top: 21vh;
-      height: 50vh;
+      top: 160px;
+      height: 400px;
       background-size: cover;
   }
 
+  //Computer
+  @media (max-width: 1205px) {
+    height: 950px;
+  }
+  @media (max-width: 1050px) {
+    height: 1000px;
+  }
+
+  //Tablet
+  @media (max-width: 991.98px) {
+    height: 900px;
+  }
+  @media (max-width: 885px) {
+    height: 920px;
+  }
+  @media (max-width: 808px) {
+    height: 950px;
+  }
+
+  //Landscape phone
+  @media (max-width: 767.98px) {
+    height: 920px;
+  }
+  @media (max-width: 624px) {
+    height: 950px;
+  }
+  @media (max-width: 504px) {
+    height: 970px;
+  }
+  @media (max-width: 460px) {
+    height: 1000px;
+  }
+  @media (max-width: 420px) {
+    height: 1030px;
+  }
 }
 
 #content11 {
   @include sections;
+  #titulo {
+    top: 4vh;
+  }
   .row {
       display: -ms-flexbox; /* IE10 */
       display: flex;
@@ -201,6 +239,9 @@ fieldset, img {
 
 #content12 {
   @include sections;
+  #titulo {
+    top: 4vh;
+  }
   .instaimg img {
     margin-bottom:30px;
     transition: .3s;
@@ -239,6 +280,9 @@ fieldset, img {
       top: 21vh;
       height: 400px;
       background-size: cover;
+  }
+  @media (max-width: 991.98px) {
+    height: 105vh;
   }
 }
 
@@ -280,6 +324,9 @@ fieldset, img {
       height: 50vh;
       background-size: cover;
   }
+  @media (max-width: 991.98px) {
+    height: 105vh;
+  }
 }
 
 #content3 {
@@ -292,6 +339,9 @@ fieldset, img {
       top: 21vh;
       height: 55vh;
       background-size: cover;
+  }
+  @media (max-width: 991.98px) {
+    height: 105vh;
   }
 }
 
@@ -382,7 +432,6 @@ footer {
 // Medium devices (tablets, less than 992px)
 @media (max-width: 991.98px) {
   #content1, #content21, #content22, #content23, #content24, #content3 {
-      height: 105vh;
       .arti {
         padding-left: 1.35rem;
         padding-right: 1.35rem;
@@ -434,9 +483,6 @@ footer {
       font-size: 15px;
     }
   }
-  #content1 {
-    height: 135vh;
-  }
   #content11 {
     .row {
       padding-top: 100px;
@@ -474,9 +520,6 @@ footer {
     .arti {
       font-size: 14px;
     }
-  }
-  #content1 {
-    height: 780px;
   }
   #content22 {
     height: 115vh;

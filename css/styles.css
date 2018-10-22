@@ -112,7 +112,7 @@ fieldset, img {
   display: inline-block;
   background-size: cover;
   width: 100%;
-  height: 115vh; }
+  height: 900px; }
   #content1 #titulo {
     position: absolute;
     top: 9vh;
@@ -121,16 +121,46 @@ fieldset, img {
     font-weight: bold; }
   #content1 .arti {
     position: relative;
-    font-size: 2vh;
+    font-size: 18px;
     color: black;
-    top: 25vh; }
+    top: 200px; }
   #content1 .photo {
     background: url("../images/principal-3.jpg") no-repeat center center;
     position: relative;
     overflow: hidden;
-    top: 21vh;
-    height: 50vh;
+    top: 160px;
+    height: 400px;
     background-size: cover; }
+  @media (max-width: 1205px) {
+    #content1 {
+      height: 950px; } }
+  @media (max-width: 1050px) {
+    #content1 {
+      height: 1000px; } }
+  @media (max-width: 991.98px) {
+    #content1 {
+      height: 900px; } }
+  @media (max-width: 885px) {
+    #content1 {
+      height: 920px; } }
+  @media (max-width: 808px) {
+    #content1 {
+      height: 950px; } }
+  @media (max-width: 767.98px) {
+    #content1 {
+      height: 920px; } }
+  @media (max-width: 624px) {
+    #content1 {
+      height: 950px; } }
+  @media (max-width: 504px) {
+    #content1 {
+      height: 970px; } }
+  @media (max-width: 460px) {
+    #content1 {
+      height: 1000px; } }
+  @media (max-width: 420px) {
+    #content1 {
+      height: 1030px; } }
 
 #content11 {
   position: relative;
@@ -149,9 +179,11 @@ fieldset, img {
     font-weight: bold; }
   #content11 .arti {
     position: relative;
-    font-size: 2vh;
+    font-size: 18px;
     color: black;
-    top: 25vh; }
+    top: 200px; }
+  #content11 #titulo {
+    top: 4vh; }
   #content11 .row {
     display: -ms-flexbox;
     /* IE10 */
@@ -206,9 +238,11 @@ fieldset, img {
     font-weight: bold; }
   #content12 .arti {
     position: relative;
-    font-size: 2vh;
+    font-size: 18px;
     color: black;
-    top: 25vh; }
+    top: 200px; }
+  #content12 #titulo {
+    top: 4vh; }
   #content12 .instaimg img {
     margin-bottom: 30px;
     -webkit-transition: .3s;
@@ -239,9 +273,9 @@ fieldset, img {
     font-weight: bold; }
   #content21 .arti {
     position: relative;
-    font-size: 2vh;
+    font-size: 18px;
     color: black;
-    top: 25vh; }
+    top: 200px; }
   #content21 .photo {
     background: url("../images/marcos-1.jpg") no-repeat top center;
     position: relative;
@@ -265,9 +299,9 @@ fieldset, img {
     font-weight: bold; }
   #content22 .arti {
     position: relative;
-    font-size: 2vh;
+    font-size: 18px;
     color: black;
-    top: 25vh; }
+    top: 200px; }
   #content22 .photo {
     background: url("../images/espejos.jpg") no-repeat center center;
     position: relative;
@@ -275,6 +309,9 @@ fieldset, img {
     top: 21vh;
     height: 400px;
     background-size: cover; }
+  @media (max-width: 991.98px) {
+    #content22 {
+      height: 105vh; } }
 
 #content23 {
   position: relative;
@@ -291,9 +328,9 @@ fieldset, img {
     font-weight: bold; }
   #content23 .arti {
     position: relative;
-    font-size: 2vh;
+    font-size: 18px;
     color: black;
-    top: 25vh; }
+    top: 200px; }
   #content23 .photo {
     background: url("../images/escaparate-2.jpg") no-repeat center center;
     position: relative;
@@ -326,9 +363,9 @@ fieldset, img {
     font-weight: bold; }
   #content24 .arti {
     position: relative;
-    font-size: 2vh;
+    font-size: 18px;
     color: black;
-    top: 25vh; }
+    top: 200px; }
   #content24 .photo {
     background: url("../images/tienda-2.jpg") no-repeat center center;
     margin: 0 auto;
@@ -337,6 +374,9 @@ fieldset, img {
     top: 21vh;
     height: 50vh;
     background-size: cover; }
+  @media (max-width: 991.98px) {
+    #content24 {
+      height: 105vh; } }
 
 #content3 {
   position: relative;
@@ -353,9 +393,9 @@ fieldset, img {
     font-weight: bold; }
   #content3 .arti {
     position: relative;
-    font-size: 2vh;
+    font-size: 18px;
     color: black;
-    top: 25vh; }
+    top: 200px; }
   #content3 .photo {
     background: url("../images/servicios-1.jpg") no-repeat bottom center;
     position: relative;
@@ -363,6 +403,9 @@ fieldset, img {
     top: 21vh;
     height: 55vh;
     background-size: cover; }
+  @media (max-width: 991.98px) {
+    #content3 {
+      height: 105vh; } }
 
 #content4 {
   position: relative;
@@ -381,9 +424,9 @@ fieldset, img {
     font-weight: bold; }
   #content4 .arti {
     position: relative;
-    font-size: 2vh;
+    font-size: 18px;
     color: black;
-    top: 25vh; }
+    top: 200px; }
   #content4 .arti2 {
     padding-top: 5vh;
     position: relative;
@@ -452,12 +495,10 @@ footer {
   text-align: center; }
 
 @media (max-width: 991.98px) {
-  #content1, #content21, #content22, #content23, #content24, #content3 {
-    height: 105vh; }
-    #content1 .arti, #content21 .arti, #content22 .arti, #content23 .arti, #content24 .arti, #content3 .arti {
-      padding-left: 1.35rem;
-      padding-right: 1.35rem;
-      font-size: 16px; }
+  #content1 .arti, #content21 .arti, #content22 .arti, #content23 .arti, #content24 .arti, #content3 .arti {
+    padding-left: 1.35rem;
+    padding-right: 1.35rem;
+    font-size: 16px; }
   .pl-5 {
     padding-left: 0rem; }
   .ml-5 {
@@ -495,8 +536,6 @@ footer {
 @media (max-width: 767.98px) {
   #content1 .arti, #content21 .arti, #content22 .arti, #content23 .arti, #content24 .arti, #content3 .arti {
     font-size: 15px; }
-  #content1 {
-    height: 135vh; }
   #content11 .row {
     padding-top: 100px; }
   #content12 .container-fluid {
@@ -517,8 +556,6 @@ footer {
     height: 25px; }
   #content1 .arti, #content21 .arti, #content22 .arti, #content23 .arti, #content24 .arti, #content3 .arti {
     font-size: 14px; }
-  #content1 {
-    height: 780px; }
   #content22 {
     height: 115vh; }
   #content23 {

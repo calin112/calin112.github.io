@@ -117,7 +117,7 @@ fieldset, img {
     position: absolute;
     top: 60px;
     color: black;
-    font-size: 60px;
+    font-size: 50px;
     font-weight: bold; }
   #content1 .arti {
     position: relative;
@@ -198,7 +198,7 @@ fieldset, img {
     position: absolute;
     top: 60px;
     color: black;
-    font-size: 60px;
+    font-size: 50px;
     font-weight: bold; }
   #content11 .arti {
     position: relative;
@@ -257,7 +257,7 @@ fieldset, img {
     position: absolute;
     top: 60px;
     color: black;
-    font-size: 60px;
+    font-size: 50px;
     font-weight: bold; }
   #content12 .arti {
     position: relative;
@@ -292,7 +292,7 @@ fieldset, img {
     position: absolute;
     top: 60px;
     color: black;
-    font-size: 60px;
+    font-size: 50px;
     font-weight: bold; }
   #content21 .arti {
     position: relative;
@@ -318,7 +318,7 @@ fieldset, img {
     position: absolute;
     top: 60px;
     color: black;
-    font-size: 60px;
+    font-size: 50px;
     font-weight: bold; }
   #content22 .arti {
     position: relative;
@@ -347,7 +347,7 @@ fieldset, img {
     position: absolute;
     top: 60px;
     color: black;
-    font-size: 60px;
+    font-size: 50px;
     font-weight: bold; }
   #content23 .arti {
     position: relative;
@@ -382,7 +382,7 @@ fieldset, img {
     position: absolute;
     top: 60px;
     color: black;
-    font-size: 60px;
+    font-size: 50px;
     font-weight: bold; }
   #content24 .arti {
     position: relative;
@@ -412,7 +412,7 @@ fieldset, img {
     position: absolute;
     top: 60px;
     color: black;
-    font-size: 60px;
+    font-size: 50px;
     font-weight: bold; }
   #content3 .arti {
     position: relative;
@@ -443,7 +443,7 @@ fieldset, img {
     position: absolute;
     top: 60px;
     color: black;
-    font-size: 60px;
+    font-size: 50px;
     font-weight: bold; }
   #content4 .arti {
     position: relative;
@@ -518,10 +518,12 @@ footer {
   text-align: center; }
 
 @media (max-width: 991.98px) {
-  #content1 .arti, #content21 .arti, #content22 .arti, #content23 .arti, #content24 .arti, #content3 .arti {
+  #content1 .arti, #content11 .arti, #content12 .arti, #content21 .arti, #content22 .arti, #content23 .arti, #content24 .arti, #content3 .arti {
     padding-left: 1.35rem;
     padding-right: 1.35rem;
     font-size: 16px; }
+  #content1 #titulo, #content11 #titulo, #content12 #titulo, #content21 #titulo, #content22 #titulo, #content23 #titulo, #content24 #titulo, #content3 #titulo {
+    font-size: 45px; }
   .pl-5 {
     padding-left: 0rem; }
   .ml-5 {
@@ -557,8 +559,10 @@ footer {
     color: white; }
 
 @media (max-width: 767.98px) {
-  #content1 .arti, #content21 .arti, #content22 .arti, #content23 .arti, #content24 .arti, #content3 .arti {
+  #content1 .arti, #content11 .arti, #content12 #content21 .arti, #content22 .arti, #content23 .arti, #content24 .arti, #content3 .arti {
     font-size: 15px; }
+  #content1 #titulo, #content11 #titulo, #content12 #content21 #titulo, #content22 #titulo, #content23 #titulo, #content24 #titulo, #content3 #titulo {
+    font-size: 40px; }
   #content11 .row {
     padding-top: 100px; }
   #content12 .container-fluid {
@@ -577,7 +581,7 @@ footer {
 @media (max-width: 575.98px) {
   #logo {
     height: 25px; }
-  #content1 .arti, #content21 .arti, #content22 .arti, #content23 .arti, #content24 .arti, #content3 .arti {
+  #content1 .arti, #content11 .arti, #content12 .arti, #content21 .arti, #content22 .arti, #content23 .arti, #content24 .arti, #content3 .arti {
     font-size: 14px; }
   #content22 {
     height: 115vh; }

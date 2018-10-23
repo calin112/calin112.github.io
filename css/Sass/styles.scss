@@ -11,7 +11,7 @@
     position: absolute;
     top: 60px;
     color: black;
-    font-size: 60px;
+    font-size: 50px;
     font-weight: bold;
   }
   .arti {
@@ -457,11 +457,14 @@ footer {
 
 // Medium devices (tablets, less than 992px)
 @media (max-width: 991.98px) {
-  #content1, #content21, #content22, #content23, #content24, #content3 {
+  #content1, #content11, #content12, #content21, #content22, #content23, #content24, #content3 {
       .arti {
         padding-left: 1.35rem;
         padding-right: 1.35rem;
         font-size: 16px;
+      }
+      #titulo {
+        font-size: 45px;
       }
   }
   .pl-5 {
@@ -504,9 +507,12 @@ footer {
 
 // Small devices (landscape phones, less than 768px)
 @media (max-width: 767.98px) {
-  #content1, #content21, #content22, #content23, #content24, #content3 {
+  #content1, #content11, #content12 #content21, #content22, #content23, #content24, #content3 {
     .arti {
       font-size: 15px;
+    }
+    #titulo {
+      font-size: 40px;
     }
   }
   #content11 {
@@ -542,7 +548,7 @@ footer {
   #logo {
     height: 25px;
   }
-  #content1, #content21, #content22, #content23, #content24, #content3 {
+  #content1, #content11, #content12, #content21, #content22, #content23, #content24, #content3 {
     .arti {
       font-size: 14px;
     }

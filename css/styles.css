@@ -565,8 +565,6 @@ footer {
     font-size: 15px; }
   #content1 #titulo, #content11 #titulo, #content12 #content21 #titulo, #content22 #titulo, #content23 #titulo, #content24 #titulo, #content3 #titulo {
     font-size: 40px; }
-  #content12 img {
-    width: 80%; }
   #content21 {
     height: 185vh; }
   #content22 {
@@ -583,8 +581,6 @@ footer {
     height: 25px; }
   #content1 .arti, #content11 .arti, #content12 .arti, #content21 .arti, #content22 .arti, #content23 .arti, #content24 .arti, #content3 .arti {
     font-size: 14px; }
-  #content12 img {
-    width: 70%; }
   #content22 {
     height: 115vh; }
   #content23 {

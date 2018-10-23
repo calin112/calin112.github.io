@@ -269,8 +269,11 @@ fieldset, img {
 
 #content12 {
   @include sections;
-  #titulo {
-    top: 3vh;
+  .container-fluid {
+    padding-top: 160px;
+  }
+  .col-lg-3 {
+    text-align: center;
   }
   .instaimg img {
     margin-bottom:30px;
@@ -281,9 +284,6 @@ fieldset, img {
     -moz-opacity:0.8;
     -webkit-opacity:0.8;
     transition: .3s;
-  }
-  .container-fluid {
-    padding-top: 200px;
   }
 }
 
@@ -470,6 +470,9 @@ footer {
         font-size: 45px;
       }
   }
+  #content12 {
+    
+  }
   .pl-5 {
     padding-left: 0rem;
   }
@@ -522,8 +525,8 @@ footer {
 
   }
   #content12 {
-    .container-fluid {
-      padding-top: 100px;
+    img {
+      width: 80%;
     }
   }
   #content21 {
@@ -552,6 +555,11 @@ footer {
   #content1, #content11, #content12, #content21, #content22, #content23, #content24, #content3 {
     .arti {
       font-size: 14px;
+    }
+  }
+  #content12 {
+    img {
+      width: 70%;
     }
   }
   #content22 {

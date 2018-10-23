@@ -115,7 +115,7 @@ fieldset, img {
   height: 900px; }
   #content1 #titulo {
     position: absolute;
-    top: 9vh;
+    top: 60px;
     color: black;
     font-size: 60px;
     font-weight: bold; }
@@ -131,6 +131,8 @@ fieldset, img {
     top: 160px;
     height: 400px;
     background-size: cover; }
+  #content1 #parrafo {
+    top: 20px; }
   @media (max-width: 1205px) {
     #content1 {
       height: 950px; } }
@@ -161,6 +163,27 @@ fieldset, img {
   @media (max-width: 420px) {
     #content1 {
       height: 1030px; } }
+  @media (max-width: 380px) {
+    #content1 {
+      height: 1090px; } }
+  @media (max-width: 340px) {
+    #content1 {
+      height: 1100px; } }
+  @media (max-width: 310px) {
+    #content1 {
+      height: 1170px; } }
+  @media (max-width: 270px) {
+    #content1 {
+      height: 1250px; } }
+  @media (max-width: 260px) {
+    #content1 {
+      height: 1350px; } }
+  @media (max-width: 220px) {
+    #content1 {
+      height: 1400px; } }
+  @media (max-width: 210px) {
+    #content1 {
+      height: 1450px; } }
 
 #content11 {
   position: relative;
@@ -173,7 +196,7 @@ fieldset, img {
   /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */ }
   #content11 #titulo {
     position: absolute;
-    top: 9vh;
+    top: 60px;
     color: black;
     font-size: 60px;
     font-weight: bold; }
@@ -232,7 +255,7 @@ fieldset, img {
   width: 100%; }
   #content12 #titulo {
     position: absolute;
-    top: 9vh;
+    top: 60px;
     color: black;
     font-size: 60px;
     font-weight: bold; }
@@ -267,7 +290,7 @@ fieldset, img {
   height: 105vh; }
   #content21 #titulo {
     position: absolute;
-    top: 9vh;
+    top: 60px;
     color: black;
     font-size: 60px;
     font-weight: bold; }
@@ -293,7 +316,7 @@ fieldset, img {
   height: 90vh; }
   #content22 #titulo {
     position: absolute;
-    top: 9vh;
+    top: 60px;
     color: black;
     font-size: 60px;
     font-weight: bold; }
@@ -322,7 +345,7 @@ fieldset, img {
   height: 105vh; }
   #content23 #titulo {
     position: absolute;
-    top: 9vh;
+    top: 60px;
     color: black;
     font-size: 60px;
     font-weight: bold; }
@@ -357,7 +380,7 @@ fieldset, img {
   height: 95vh; }
   #content24 #titulo {
     position: absolute;
-    top: 9vh;
+    top: 60px;
     color: black;
     font-size: 60px;
     font-weight: bold; }
@@ -387,7 +410,7 @@ fieldset, img {
   height: 100vh; }
   #content3 #titulo {
     position: absolute;
-    top: 9vh;
+    top: 60px;
     color: black;
     font-size: 60px;
     font-weight: bold; }
@@ -418,7 +441,7 @@ fieldset, img {
   /* Responsive layout - makes a one column-layout instead of two columns */ }
   #content4 #titulo {
     position: absolute;
-    top: 9vh;
+    top: 60px;
     color: black;
     font-size: 60px;
     font-weight: bold; }

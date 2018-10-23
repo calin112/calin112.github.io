@@ -9,7 +9,7 @@
   width: 100%;
   #titulo {
     position: absolute;
-    top: 9vh;
+    top: 60px;
     color: black;
     font-size: 60px;
     font-weight: bold;
@@ -144,6 +144,9 @@ fieldset, img {
       height: 400px;
       background-size: cover; //hola
   }
+  #parrafo {
+    top: 20px;
+  }
 
   //Computer
   @media (max-width: 1205px) {
@@ -171,6 +174,8 @@ fieldset, img {
   @media (max-width: 624px) {
     height: 950px;
   }
+
+  //Portrait phone
   @media (max-width: 504px) {
     height: 970px;
   }
@@ -179,6 +184,27 @@ fieldset, img {
   }
   @media (max-width: 420px) {
     height: 1030px;
+  }
+  @media (max-width: 380px) {
+    height: 1090px;
+  }
+  @media (max-width: 340px) {
+    height: 1100px;
+  }
+  @media (max-width: 310px) {
+    height: 1170px;
+  }
+  @media (max-width: 270px) {
+    height: 1250px;
+  }
+  @media (max-width: 260px) {
+    height: 1350px;
+  }
+  @media (max-width: 220px) {
+    height: 1400px;
+  }
+  @media (max-width: 210px) {
+    height: 1450px;
   }
 }
 

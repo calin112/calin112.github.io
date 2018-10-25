@@ -242,7 +242,7 @@ fieldset, img {
   }
 
   /* Responsive layout - makes a two column-layout instead of four columns */
-  @media screen and (max-width: 800px) {
+  @media screen and (max-width: 991.98px) {
       .column {
           -ms-flex: 50%;
           flex: 50%;
@@ -254,7 +254,7 @@ fieldset, img {
   }
 
   /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
-  @media screen and (max-width: 600px) {
+  @media screen and (max-width: 575.98px) {
       .column {
           -ms-flex: 100%;
           flex: 100%;
@@ -285,11 +285,21 @@ fieldset, img {
     -webkit-opacity:0.8;
     transition: .3s;
   }
+  @media screen and (max-width: 991.98px) {
+    .instaimg {
+      width: 50% !important;
+    }
+  }
+  @media screen and (max-width: 575.98px) {
+    .instaimg {
+      width: 100% !important;
+    }
+  }
 }
 
 #content21 {
   @include sections;
-  height: 105vh;
+  height: 850px;
   .photo {
     background: url("../images/marcos-1.jpg") no-repeat top center;
       position: relative;
@@ -298,11 +308,32 @@ fieldset, img {
       height: 400px;
       background-size: cover;
   }
+  @media (max-width: 550px) {
+    height: 900px;
+  }
+  @media (max-width: 393px) {
+    height: 950px;
+  }
+  @media (max-width: 354px) {
+    height: 1000px;
+  }
+  @media (max-width: 272px) {
+    height: 1050px;
+  }
+  @media (max-width: 256px) {
+    height: 1150px;
+  }
+  @media (max-width: 215px) {
+    height: 1300px;
+  }
+  @media (max-width: 181px) {
+    height: 1500px;
+  }
 }
 
 #content22 {
   @include sections;
-  height: 90vh;
+  height: 750px;
   .photo {
     background: url("../images/espejos.jpg") no-repeat center center;
       position: relative;
@@ -311,23 +342,52 @@ fieldset, img {
       height: 400px;
       background-size: cover;
   }
-  @media (max-width: 991.98px) {
-    height: 105vh;
+  @media (max-width: 354px) {
+    height: 800px;
+  }
+  @media (max-width: 264px) {
+    height: 900px;
+  }
+  @media (max-width: 196px) {
+    height: 1000px;
+  }
+  @media (max-width: 164px) {
+    height: 1100px;
   }
 }
 
 #content23 {
   @include sections;
-  height: 105vh;
+  height: 800px;
   .photo {
     background: url("../images/escaparate-2.jpg") no-repeat center center;
       position: relative;
       overflow: hidden;
       top: 160px;
-      height: 50vh;
+      height: 400px;
       background-size: cover;
   }
-
+  @media (max-width: 991.98px) {
+    height: 750px;
+  }
+  @media (max-width: 692px) {
+    height: 800px;
+  }
+  @media (max-width: 433px) {
+    height: 850px;
+  }
+  @media (max-width: 352px) {
+    height: 900px;
+  }
+  @media (max-width: 304px) {
+    height: 950px;
+  }
+  @media (max-width: 268px) {
+    height: 1050px;
+  }
+  @media (max-width: 228px) {
+    height: 1250px;
+  }
 }
 
 .swiper-container {
@@ -344,34 +404,58 @@ fieldset, img {
 
 #content24 {
   @include sections;
-  height: 95vh;
+  height: 770px;
   .photo {
     background: url("../images/tienda-2.jpg") no-repeat center center;
     margin: 0 auto;
       position: relative;
       overflow: hidden;
       top: 160px;
-      height: 50vh;
+      height: 400px;
       background-size: cover;
   }
-  @media (max-width: 991.98px) {
-    height: 105vh;
+  @media screen and (max-width: 584px) {
+    height: 800px;
+  }
+  @media screen and (max-width: 575.98px) {
+    height: 770px;
+  }
+  @media screen and (max-width: 387px) {
+    height: 870px;
+  }
+  @media screen and (max-width: 302px) {
+    height: 930px;
+  }
+  @media screen and (max-width: 270px) {
+    height: 1000px;
+  }
+  @media screen and (max-width: 218px) {
+    height: 1200px;
   }
 }
 
 #content3 {
   @include sections;
-  height: 100vh;
+  height: 790px;
   .photo {
     background: url("../images/servicios-1.jpg") no-repeat bottom center;
       position: relative;
       overflow: hidden;
       top: 160px;
-      height: 55vh;
+      height: 400px;
       background-size: cover;
   }
-  @media (max-width: 991.98px) {
-    height: 105vh;
+  @media screen and (max-width: 500px) {
+    height: 850px;
+  }
+  @media screen and (max-width: 356px) {
+    height: 900px;
+  }
+  @media screen and (max-width: 279px) {
+    height: 1000px;
+  }
+  @media screen and (max-width: 231px) {
+    height: 1200px;
   }
 }
 
@@ -379,7 +463,7 @@ fieldset, img {
   @include sections;
   width: 100%;
   .arti2 {
-    padding-top: 5vh;
+    padding-top: 0;
     position: relative;
     color: black;
   }
@@ -429,7 +513,7 @@ fieldset, img {
       }
   }
   /* Responsive layout - makes a one column-layout instead of two columns */
-  @media screen and (max-width: 800px) {
+  @media screen and (max-width: 767.98px) {
     padding-left: 8px;
       .row {
         height: 1100px;
@@ -453,25 +537,25 @@ fieldset, img {
 }
 
 footer {
-  height: 10vh;
+  height: 100px;
   color: white;
   text-align: center;
 }
 
 // Medium devices (tablets, less than 992px)
 @media (max-width: 991.98px) {
-  #content1, #content11, #content12, #content21, #content22, #content23, #content24, #content3 {
+  #content1, #content11, #content12, #content21, #content22, #content23, #content24, #content3, #content4 {
       .arti {
         padding-left: 1.35rem;
         padding-right: 1.35rem;
         font-size: 16px;
       }
+      .arti2 {
+        font-size: 16px;
+      }
       #titulo {
         font-size: 45px;
       }
-  }
-  #content12 {
-
   }
   .pl-5 {
     padding-left: 0rem;
@@ -513,33 +597,13 @@ footer {
 
 // Small devices (landscape phones, less than 768px)
 @media (max-width: 767.98px) {
-  #content1, #content11, #content12 #content21, #content22, #content23, #content24, #content3 {
-    .arti {
+  #content1, #content11, #content12 #content21, #content22, #content23, #content24, #content3,#content4 {
+    .arti, .arti2 {
       font-size: 15px;
     }
     #titulo {
       font-size: 40px;
     }
-  }
-  #content11 {
-
-  }
-  #content12 {
-  }
-  #content21 {
-    height: 185vh;
-  }
-  #content22 {
-    height: 115vh;
-  }
-  #content23 {
-    height: 135vh;
-  }
-  #content24 {
-    height: 130vh;
-  }
-  #content3 {
-    height: 130vh;
   }
 
 }
@@ -547,32 +611,12 @@ footer {
 // Extra small devices (portrait phones, less than 576px)
 @media (max-width: 575.98px) {
   #logo {
-    height: 25px;
+    height: 24px;
   }
   #content1, #content11, #content12, #content21, #content22, #content23, #content24, #content3 {
-    .arti {
+    .arti, .arti2 {
       font-size: 14px;
     }
-  }
-  #content12 {
-  }
-  #content22 {
-    height: 115vh;
-  }
-  #content23 {
-    height: 135vh;
-  }
-  #content24 {
-    height: 130vh;
-  }
-  #content3 {
-    height: 125vh;
-  }
-  #content21 {
-      height: 150vh;
-      .arti {
-        font-size: 15px;
-      }
   }
   .redes {
     padding-top: 20px;

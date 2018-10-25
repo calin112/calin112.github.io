@@ -404,7 +404,7 @@ fieldset, img {
 
 #content24 {
   @include sections;
-  height: 770px;
+  height: 830px;
   .photo {
     background: url("../images/tienda-2.jpg") no-repeat center center;
     margin: 0 auto;
@@ -414,23 +414,18 @@ fieldset, img {
       height: 400px;
       background-size: cover;
   }
+
   @media screen and (max-width: 584px) {
-    height: 800px;
-  }
-  @media screen and (max-width: 575.98px) {
-    height: 770px;
-  }
-  @media screen and (max-width: 387px) {
     height: 870px;
   }
-  @media screen and (max-width: 302px) {
+  @media screen and (max-width: 386px) {
     height: 930px;
   }
-  @media screen and (max-width: 270px) {
+  @media screen and (max-width: 304px) {
     height: 1000px;
   }
-  @media screen and (max-width: 218px) {
-    height: 1200px;
+  @media screen and (max-width: 245px) {
+    height: 1100px;
   }
 }
 

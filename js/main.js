@@ -1,8 +1,5 @@
-//Wait until page loads
-
-$(document).ready(function() {
-    $(".backPhoto").addClass("animateFadeIn");
-});
+//Initialize AOS
+AOS.init();
 
 //Navbar Collapse
 
@@ -12,63 +9,58 @@ $(document).ready(function(){
   });
 });
 
-//Go down arrow
+//Header logo, header and navbar animation
 
-$(document).ready(function(){
-  $("a").on('click', function(event) {
-    if (this.hash !== "") {
-      event.preventDefault();
-      var hash = this.hash;
-      $('html, body').animate({
-        scrollTop: $(hash).offset().top
-      }, 1000, function(){
-        window.location.hash = hash;
-      });
-    }
-  });
+$("#logo img").addClass("load");
+
+$("#header").addClass("load");
+
+$("#mynavbar").addClass("load");
+
+//InstaFeed
+
+$(document).ready(function() {
+    var userFeed = new Instafeed({
+        get: 'user',
+        userId: '8614611355',
+        limit: 9,
+        resolution: 'standard_resolution',
+        accessToken: '8614611355.1677ed0.ceda1550782e45e0b801ebf66d00b02f',
+        sortBy: 'most-recent',
+        template: '<div class="col-lg-4 instaimg"><a href="{{image}}" title="{{caption}}" target="_blank"><img src="{{image}}" alt="{{caption}}" class="img-fluid"/></a></div>',
+    });
+    userFeed.run();
+    // This will create a single gallery from all elements that have class "gallery-item"
+    $('.gallery').magnificPopup({
+        type: 'image',
+        delegate: 'a',
+        gallery: {
+            enabled: true
+        }
+    });
 });
 
-//Navbar Opacity
-/*
-$(document).ready(function(){
-  $(window).scroll(function(){
-    if($(this).scrollTop() > 0) {
-      $("#myNavbar").css({"opacity" : "1"})
-    }
-    else {
-      $("#myNavbar").css({"opacity" : "0"})
-    }
-  })
-})
-*/
-$(document).ready(function(){
-  // Add scrollspy to <body>
-  $('body').scrollspy({target: ".navbar", offset: 50});
+//Swiper
 
-  // Add smooth scrolling on all links inside the navbar
-  $("#myNavbar a").on('click', function(event) {
-    // Make sure this.hash has a value before overriding default behavior
-    if (this.hash !== "") {
-      // Prevent default anchor click behavior
-      event.preventDefault();
-
-      // Store hash
-      var hash = this.hash;
-
-      // Using jQuery's animate() method to add smooth page scroll
-      // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
-      $('html, body').animate({
-        scrollTop: $(hash).offset().top
-      }, 800, function(){
-
-        // Add hash (#) to URL when done scrolling (default click behavior)
-        window.location.hash = hash;
-      });
-    }  // End if
+var swiper = new Swiper('.swiper-container', {
+    effect: 'coverflow',
+    grabCursor: true,
+    centeredSlides: true,
+    slidesPerView: 'auto',
+    coverflowEffect: {
+      rotate: 50,
+      stretch: 0,
+      depth: 100,
+      modifier: 1,
+      slideShadows : true,
+    },
+    pagination: {
+      el: '.swiper-pagination',
+    },
   });
-});
 
-//Google Map
+//Google Maps
+
 // Initialize and add the map
 function initMap() {
   // The location of Lumarc 41.067318, 1.057415
@@ -79,32 +71,3 @@ function initMap() {
   // The marker, positioned at lumarc
   var marker = new google.maps.Marker({position: lumarc, map: map});
 }
-
-//InstaFeed
-
-$(document).ready(function() {
-
-
-    var userFeed = new Instafeed({
-        get: 'user',
-        userId: '8614611355',
-        limit: 8,
-        resolution: 'standard_resolution',
-        accessToken: '8614611355.1677ed0.ceda1550782e45e0b801ebf66d00b02f',
-        sortBy: 'most-recent',
-        template: '<div class="col-lg-3 instaimg"><a href="{{image}}" title="{{caption}}" target="_blank"><img src="{{image}}" alt="{{caption}}" class="img-fluid"/></a></div>',
-    });
-
-
-    userFeed.run();
-
-
-    // This will create a single gallery from all elements that have class "gallery-item"
-    $('.gallery').magnificPopup({
-        type: 'image',
-        delegate: 'a',
-        gallery: {
-            enabled: true
-        }
-    });
-});

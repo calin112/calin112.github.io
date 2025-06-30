@@ -64,7 +64,7 @@ var swiper = new Swiper('.swiper-container', {
 // Initialize and add the map
 function initMap() {
   // The location of Lumarc 41.067318, 1.057415
-  var lumarc = {lat: 41.067318, lng: 1.057415};
+  var lumarc = {lat: 41.0676578, lng: 1.0547679};
   // The map, centered at lumarc
   var map = new google.maps.Map(
       document.getElementById('map'), {zoom: 18, center: lumarc});
